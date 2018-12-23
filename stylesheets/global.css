@@ -1,0 +1,314 @@
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+header {
+	position: relative;
+	background: #3F8FD2;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 32px;
+	border-bottom: 3px solid #66A1D2;
+}
+
+header img#logo {
+	float: left;
+	margin: 1px 0 0 32px;
+	padding: 0 0 0 0;
+	
+}
+
+header nav {
+	position: relative;
+	top: 4px;
+}
+
+header div {
+	position: relative;
+	top: 4px;
+}
+
+header div#share {
+	position: absolute;
+	right: 0px;
+	width: 478px;
+	overflow:hidden;
+}
+
+header div#share ul {
+	position: relative;
+	top: 2px;
+	list-style-type: none;
+	height: 24px;
+	width:inherit;
+	overflow:hidden;
+}
+
+header div#share ul li {
+	position: relative;
+	float: left;
+	padding-right: 12px;
+}
+
+header div#dropdown {
+	position: relative;
+	float: left;
+	top: 0px;
+	width: 200px;
+	margin: 0px 0px 0px 24px;
+}
+
+header select#topics {
+	margin: 3px 0px 0px 8px;
+	width: 256px;
+}
+
+div#flash {
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid #BBBBBB;
+	background: #555555;
+	width: 800px;
+	margin-top: 16px;
+	margin-bottom: 32px;
+	padding: 6px 12px 6px 12px;
+}
+
+div#flash p {
+	font-size: 24px;
+}
+
+div#flash a {
+	color: #FF5555;
+}
+
+div.featured-topic {
+	position: relative;
+	margin-top: 24px;
+	margin-bottom: 12px;
+	width: 750px;
+	overflow: auto;
+}
+
+#canvas-stage {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 500px;
+}
+
+div.static {
+	margin: 32px 32px 64px 32px;
+	width: 740px;
+}
+
+div.static p {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+div.static h3 {
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 28px;
+}
+
+div.static a {
+	color: #007046;
+}
+
+div.static ul li {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 6px;
+}
+
+div.static img#bg-logo {
+	position: absolute;
+	top: 60px;
+	left: 770px;
+	z-index: -1;
+}
+
+div.featured-topic h5 span.featured-info {
+	font-weight: normal;
+	font-style: italic;
+	color: #999999;
+}
+
+div.featured-topic p {
+	font-size: 12px;
+	padding-right: 24px;
+}
+
+img.featured-img {
+	float: left;
+	position: relative;
+	border: 1px solid black;
+	margin-right: 12px;
+}
+
+div.orange {
+	border: 8px solid #FFDDBB;
+	background: #FFEEDD;
+	padding: 12px;
+	margin: 12px;
+	width: 250px;
+}
+
+div.orange h3 {
+	font-weight: bold;
+}
+
+div.orange a {
+	color: #7109AA;
+}
+
+div.orange li {
+	margin-bottom: 12px;
+}
+
+#disqus {
+	border-top: 4px solid #37DD6F;
+	background: #00BB3F;
+	padding: 0px 32px 32px 32px;
+}
+
+#disqus-cta {
+	height: 36px;
+	padding-top: 12px;
+}
+
+#disqus-cta p {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#disqus-cta p a {
+	text-decoration: none;
+	color: #000000;
+}
+
+div.readout {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+footer {
+	position: relative;
+	background: #A62F00;
+	left: 0px;
+	width: 100%;
+	height: 150px;
+	margin: 0px 0px 0px 0px;
+	padding: 16px 0px 64px 0px;
+	border-top: 6px solid #BF5930;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #FF9D73;
+}
+
+footer div#footer-wrap {
+	width: 1024px;
+}
+
+footer div#logo_lockup {
+	float: left;
+	width: 280px;
+	margin-right: 64px;
+	margin-left: 24px;
+}
+
+footer div#logo_lockup div#logo {
+	float: left;
+	margin-right: 16px;
+}
+
+footer div#logo_lockup div#title p {
+	font-size: 22px;
+	margin-bottom: 6px;
+}
+
+footer span.sub {
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+footer div#logo_lockup div#tagline p {
+	color: #BF5B30;
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: 14px;
+}
+
+footer div#copyright {
+	float: left;
+	width: 250px;
+}
+
+footer div#copyright div#copyright-message p {
+	color: #BF5B30;
+	font-size: 14px;
+	font-family: Helvetica;
+	margin-bottom: 6px;
+}
+
+footer div#copyright div#creative-commons {
+	margin-top: 6px;
+}
+
+footer div#platform {
+	float: left;
+	width: 250px;
+	margin-top: 32px;
+}
+
+footer div#platform img {
+	float: left;
+	margin-right: 12px;
+}
+
+footer div#platform p {
+	color: #BF5B30;
+	font-size: 12px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: Helvetica;
+}
+
+footer nav {
+	float: left;
+	margin-right: 64px;
+}
+
+footer nav ul {
+	float: left;
+	margin-right: 32px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav {
+	margin-left: 24px;
+}

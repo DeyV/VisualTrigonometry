@@ -1,0 +1,1779 @@
+[ 2018-12-23 20:01:22 ] #################################################################
+[ 2018-12-23 20:01:22 ] ######################   SCRAPING STARTED  ######################
+[ 2018-12-23 20:01:22 ] #################################################################
+[ 2018-12-23 20:01:22 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/files_iframe_info.xml NOT YET CREATED
+[ 2018-12-23 20:01:22 ] Create an empty xml file : files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/files_count.xml
+[ 2018-12-23 20:01:22 ] set_files_count_xml() function
+[ 2018-12-23 20:01:22 ] increment +1
+[ 2018-12-23 20:01:22 ] key = 'scraping_reload' |  value = '1'
+[ 2018-12-23 20:01:22 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:22 ] Error occured when sending email !!!
+[ 2018-12-23 20:01:22 ] Number of running request for this user : 1
+[ 2018-12-23 20:01:22 ] Limit of running request by bulk user : 7
+[ 2018-12-23 20:01:22 ] -------------------------------------------
+[ 2018-12-23 20:01:22 ]  Reading From 'report_to_create_file.txt' 
+[ 2018-12-23 20:01:22 ] -------------------------------------------
+[ 2018-12-23 20:01:22 ] Front Page is Complete = No
+[ 2018-12-23 20:01:22 ] -------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:22 ] scraping_front_page() Function ...
+[ 2018-12-23 20:01:22 ] archive_url_origine = https://web.archive.org/web/20150315011435/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:22 ] Scraping of front page ( test number 1/3 )
+[ 2018-12-23 20:01:22 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:22 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:22 ] URL = https://web.archive.org/web/20150315011435/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:22 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:22 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:23 ] code = 200
+[ 2018-12-23 20:01:23 ] Final URL = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/ ( Final code = 200 )
+[ 2018-12-23 20:01:23 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:23 ] set_files_count_xml() function
+[ 2018-12-23 20:01:23 ] key = 'final_archive_url' |  value = 'https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/'
+[ 2018-12-23 20:01:23 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:23 ] set_files_count_xml() function
+[ 2018-12-23 20:01:23 ] key = 'is_ebn' |  value = 'false'
+[ 2018-12-23 20:01:23 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:23 ] Final Archive URL = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:23 ] -------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:23 ] Create front page row in 'to_create_arr' table
+[ 2018-12-23 20:01:23 ] set_files_count_xml() function
+[ 2018-12-23 20:01:23 ] key = 'html_total' |  value = '1'
+[ 2018-12-23 20:01:23 ] key = 'html_done' |  value = '0'
+[ 2018-12-23 20:01:23 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:23 ] ( 0 / 1 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:23 ] full archive url = https://web.archive.org/web/20150315011435/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:23 ] archive url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:23 ] website url = http://www.touchmathematics.org/
+[ 2018-12-23 20:01:23 ] no www url = touchmathematics.org
+[ 2018-12-23 20:01:23 ] Main Domain = touchmathematics.org
+[ 2018-12-23 20:01:23 ] subdomain = www
+[ 2018-12-23 20:01:23 ] type( demo or live ) = demo
+[ 2018-12-23 20:01:23 ] max_level = 1
+[ 2018-12-23 20:01:23 ] allow_backlinks = 0
+[ 2018-12-23 20:01:23 ] main folder = touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva
+[ 2018-12-23 20:01:23 ] email = DeyVpl@gmail.com
+[ 2018-12-23 20:01:23 ] scrape_html_then_files_in_front_page = Yes
+[ 2018-12-23 20:01:23 ] 
+[ 2018-12-23 20:01:23 ] Download PDF = 0
+[ 2018-12-23 20:01:23 ] file_path_index = 
+[ 2018-12-23 20:01:23 ] file_path_without_ext_index = 
+[ 2018-12-23 20:01:23 ] strings_to_replace = 
+[ 2018-12-23 20:01:23 ] remove_analytics_code = 0
+[ 2018-12-23 20:01:23 ] remove_adsense_code = 0
+[ 2018-12-23 20:01:23 ] remove_broken_outbound_links = 0
+[ 2018-12-23 20:01:23 ] redirect_all_404_to_frontpage = No
+[ 2018-12-23 20:01:23 ] force_work_in_local = No
+[ 2018-12-23 20:01:23 ] skip_fix_encoding = No
+[ 2018-12-23 20:01:23 ] Use Proxy after first scraping fail = Yes
+[ 2018-12-23 20:01:23 ] scraping_reload number = 1
+[ 2018-12-23 20:01:23 ] readme.txt Created
+[ 2018-12-23 20:01:23 ] ------------------------------------------------------------------
+[ 2018-12-23 20:01:23 ] set_files_count_xml() function
+[ 2018-12-23 20:01:23 ] key = 'html_total' |  value = '1'
+[ 2018-12-23 20:01:23 ] key = 'html_done' |  value = '0'
+[ 2018-12-23 20:01:23 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:23 ] ( 0 / 1 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:23 ] #####################################################################################################
+[ 2018-12-23 20:01:23 ] ###############https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/ ( Scraping  of 1 / 1 )  - 0 error pages fixed###############
+[ 2018-12-23 20:01:23 ] ###############Local URL = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html (code = 200) ###############
+[ 2018-12-23 20:01:23 ] ###############This is front page###############
+[ 2018-12-23 20:01:23 ] ###############Try number = 1###############
+[ 2018-12-23 20:01:23 ] #####################################################################################################
+[ 2018-12-23 20:01:23 ]  Main level =0
+[ 2018-12-23 20:01:23 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:23 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:23 ] URL = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:23 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:23 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:23 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:23 ] code = 200
+[ 2018-12-23 20:01:23 ] Final URL = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/ ( Final code = 200 )
+[ 2018-12-23 20:01:23 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:23 ] removeArchiveHeader() from the HTML file
+[ 2018-12-23 20:01:23 ] Original encoding = UTF-8
+[ 2018-12-23 20:01:23 ] Original encoding is in probably UTF-8= true
+[ 2018-12-23 20:01:23 ] ----------------------------------------
+[ 2018-12-23 20:01:23 ] Check Encoding And then fix it
+[ 2018-12-23 20:01:23 ] Final encoding = UTF-8
+[ 2018-12-23 20:01:23 ] Language = N/A
+[ 2018-12-23 20:01:23 ] set_files_count_xml() function
+[ 2018-12-23 20:01:23 ] key = 'is_pretty_url' |  value = 'true'
+[ 2018-12-23 20:01:23 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:23 ] Pretty URL Ratio : 100 %
+[ 2018-12-23 20:01:23 ] Is pertty URL : 1
+[ 2018-12-23 20:01:23 ] ###############################################################
+[ 2018-12-23 20:01:23 ] href  = /web/20150315011558/http://www.touchmathematics.org/ - [( 0/12 )]
+[ 2018-12-23 20:01:23 ] file_url = /web/20150315011558/http://www.touchmathematics.org/ ( is_internal_url = 1 )
+[ 2018-12-23 20:01:23 ] 2 - 'index.html' : Replace '/web/20150315011558/http://www.touchmathematics.org/' with '/'
+[ 2018-12-23 20:01:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:23 ] ###############################################################
+[ 2018-12-23 20:01:23 ] href  = https://web.archive.org/web/20150315011558/http://twitter.com/share - [( 1/12 )]
+[ 2018-12-23 20:01:23 ] file_url = /web/20150315011558/http://twitter.com/share ( is_internal_url =  )
+[ 2018-12-23 20:01:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:23 ] ###############################################################
+[ 2018-12-23 20:01:23 ] href  = https://web.archive.org/web/20150315011558/http://www.activatejavascript.org/ - [( 2/12 )]
+[ 2018-12-23 20:01:23 ] file_url = /web/20150315011558/http://www.activatejavascript.org/ ( is_internal_url =  )
+[ 2018-12-23 20:01:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:23 ] ###############################################################
+[ 2018-12-23 20:01:23 ] href  = /web/20150315011558/http://www.touchmathematics.org/topics/derivatives - [( 3/12 )]
+[ 2018-12-23 20:01:23 ] file_url = /web/20150315011558/http://www.touchmathematics.org/topics/derivatives ( is_internal_url = 1 )
+[ 2018-12-23 20:01:23 ] Original url : https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/topics/derivatives
+[ 2018-12-23 20:01:23 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:23 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:23 ] URL = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/topics/derivatives
+[ 2018-12-23 20:01:23 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:23 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:23 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:24 ] code = 200
+[ 2018-12-23 20:01:24 ] Final URL = https://web.archive.org/web/20150315011435/http://www.touchmathematics.org/topics/derivatives ( Final code = 200 )
+[ 2018-12-23 20:01:24 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:24 ] all_links_count ( Pages that have code = 200 )= 1
+[ 2018-12-23 20:01:24 ] set_files_count_xml() function
+[ 2018-12-23 20:01:24 ] key = 'html_total' |  value = '2'
+[ 2018-12-23 20:01:24 ] key = 'html_done' |  value = '0'
+[ 2018-12-23 20:01:24 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:24 ] ( 0 / 2 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:24 ] 2 - 'index.html' : Replace '/web/20150315011558/http://www.touchmathematics.org/topics/derivatives' with 'topics/derivatives/'
+[ 2018-12-23 20:01:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:24 ] ###############################################################
+[ 2018-12-23 20:01:24 ] href  = topics/derivatives - [( 4/12 )]
+[ 2018-12-23 20:01:24 ] file_url = /web/20150315011558/http://www.touchmathematics.org/topics/derivatives ( is_internal_url = 1 )
+[ 2018-12-23 20:01:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:24 ] ###############################################################
+[ 2018-12-23 20:01:24 ] href  = /web/20150315011558/http://www.touchmathematics.org/topics/trigonometry - [( 5/12 )]
+[ 2018-12-23 20:01:24 ] file_url = /web/20150315011558/http://www.touchmathematics.org/topics/trigonometry ( is_internal_url = 1 )
+[ 2018-12-23 20:01:24 ] Original url : https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/topics/trigonometry
+[ 2018-12-23 20:01:24 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:24 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:24 ] URL = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/topics/trigonometry
+[ 2018-12-23 20:01:24 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:24 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:24 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:27 ] code = 200
+[ 2018-12-23 20:01:27 ] Final URL = https://web.archive.org/web/20150315013505/http://www.touchmathematics.org/topics/trigonometry ( Final code = 200 )
+[ 2018-12-23 20:01:27 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:27 ] all_links_count ( Pages that have code = 200 )= 2
+[ 2018-12-23 20:01:27 ] set_files_count_xml() function
+[ 2018-12-23 20:01:27 ] key = 'html_total' |  value = '3'
+[ 2018-12-23 20:01:27 ] key = 'html_done' |  value = '0'
+[ 2018-12-23 20:01:27 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:27 ] ( 0 / 3 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:27 ] 2 - 'index.html' : Replace '/web/20150315011558/http://www.touchmathematics.org/topics/trigonometry' with 'topics/trigonometry/'
+[ 2018-12-23 20:01:27 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:27 ] ###############################################################
+[ 2018-12-23 20:01:27 ] href  = topics/trigonometry - [( 6/12 )]
+[ 2018-12-23 20:01:27 ] file_url = /web/20150315011558/http://www.touchmathematics.org/topics/trigonometry ( is_internal_url = 1 )
+[ 2018-12-23 20:01:27 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:27 ] ###############################################################
+[ 2018-12-23 20:01:27 ] href  = /web/20150315011558/http://www.touchmathematics.org/about - [( 7/12 )]
+[ 2018-12-23 20:01:27 ] file_url = /web/20150315011558/http://www.touchmathematics.org/about ( is_internal_url = 1 )
+[ 2018-12-23 20:01:27 ] Original url : https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/about
+[ 2018-12-23 20:01:27 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:27 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:27 ] URL = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/about
+[ 2018-12-23 20:01:27 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:27 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:27 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:29 ] code = 200
+[ 2018-12-23 20:01:29 ] Final URL = https://web.archive.org/web/20150315013416/http://www.touchmathematics.org/about ( Final code = 200 )
+[ 2018-12-23 20:01:29 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:29 ] all_links_count ( Pages that have code = 200 )= 3
+[ 2018-12-23 20:01:29 ] set_files_count_xml() function
+[ 2018-12-23 20:01:29 ] key = 'html_total' |  value = '4'
+[ 2018-12-23 20:01:29 ] key = 'html_done' |  value = '0'
+[ 2018-12-23 20:01:29 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:29 ] ( 0 / 4 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:29 ] 2 - 'index.html' : Replace '/web/20150315011558/http://www.touchmathematics.org/about' with 'about/'
+[ 2018-12-23 20:01:29 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:29 ] ###############################################################
+[ 2018-12-23 20:01:29 ] href  = /web/20150315011558/http://www.touchmathematics.org/terms - [( 8/12 )]
+[ 2018-12-23 20:01:29 ] file_url = /web/20150315011558/http://www.touchmathematics.org/terms ( is_internal_url = 1 )
+[ 2018-12-23 20:01:29 ] set_files_count_xml() function
+[ 2018-12-23 20:01:29 ] key = 'html_total' |  value = '5'
+[ 2018-12-23 20:01:29 ] key = 'html_done' |  value = '0'
+[ 2018-12-23 20:01:29 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:29 ] ( 0 / 5 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:29 ] 2 - 'index.html' : Replace '/web/20150315011558/http://www.touchmathematics.org/terms' with 'terms/'
+[ 2018-12-23 20:01:29 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:29 ] ###############################################################
+[ 2018-12-23 20:01:29 ] href  = /web/20150315011558/http://www.touchmathematics.org/privacy - [( 9/12 )]
+[ 2018-12-23 20:01:29 ] file_url = /web/20150315011558/http://www.touchmathematics.org/privacy ( is_internal_url = 1 )
+[ 2018-12-23 20:01:29 ] set_files_count_xml() function
+[ 2018-12-23 20:01:29 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:01:29 ] key = 'html_done' |  value = '0'
+[ 2018-12-23 20:01:29 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:29 ] ( 0 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:29 ] 2 - 'index.html' : Replace '/web/20150315011558/http://www.touchmathematics.org/privacy' with 'privacy/'
+[ 2018-12-23 20:01:29 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:29 ] ###############################################################
+[ 2018-12-23 20:01:29 ] href  = https://web.archive.org/web/20150315011558/http://creativecommons.org/licenses/by-nc-sa/3.0/ - [( 10/12 )]
+[ 2018-12-23 20:01:29 ] file_url = /web/20150315011558/http://creativecommons.org/licenses/by-nc-sa/3.0/ ( is_internal_url =  )
+[ 2018-12-23 20:01:29 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:29 ] ###############################################################
+[ 2018-12-23 20:01:29 ] href  = https://web.archive.org/web/20150315011558if_/http://www.facebook.com/plugins/like.php?href&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21 - [( 11/12 )]
+[ 2018-12-23 20:01:29 ] file_url = /web/20150315011558if_/http://www.facebook.com/plugins/like.php?href&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21 ( is_internal_url =  )
+[ 2018-12-23 20:01:29 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:29 ] Removed external links total ( 0 / 4 )
+[ 2018-12-23 20:01:29 ] local_file_path not created yet = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:29 ] code = 200
+[ 2018-12-23 20:01:29 ] remove_web() function
+[ 2018-12-23 20:01:29 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html -> Front page created
+[ 2018-12-23 20:01:29 ] set_files_count_xml() function
+[ 2018-12-23 20:01:29 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:01:29 ] key = 'html_done' |  value = '1'
+[ 2018-12-23 20:01:29 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:29 ] ( 1 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:29 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : index.html already created so now I need to scrape all extensions and update the index.html file
+[ 2018-12-23 20:01:29 ] 
+[ 2018-12-23 20:01:29 ] 
+[ 2018-12-23 20:01:29 ] /**************************************************************/
+[ 2018-12-23 20:01:29 ] /*******		Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:29 ] /*******		From    'index.html'      **********/
+[ 2018-12-23 20:01:29 ] /**************************************************************/
+[ 2018-12-23 20:01:29 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:29 ] There is no file with type 'css_from_import'
+[ 2018-12-23 20:01:29 ] /*******		End : Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:29 ] /*******		      From    'index.html'      **********/
+[ 2018-12-23 20:01:29 ] 
+[ 2018-12-23 20:01:29 ] 
+[ 2018-12-23 20:01:29 ] 
+[ 2018-12-23 20:01:29 ] /**************************************************************/
+[ 2018-12-23 20:01:29 ] /*******		Extract 'fonts_from_html' files		**********/
+[ 2018-12-23 20:01:29 ] /*******		From    'index.html'      **********/
+[ 2018-12-23 20:01:29 ] /**************************************************************/
+[ 2018-12-23 20:01:29 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:29 ] There is no file with type 'fonts_from_html'
+[ 2018-12-23 20:01:29 ] /*******		End : Extract 'fonts_from_html' files		**********/
+[ 2018-12-23 20:01:29 ] /*******		      From    'index.html'      **********/
+[ 2018-12-23 20:01:29 ] 
+[ 2018-12-23 20:01:29 ] 
+[ 2018-12-23 20:01:29 ] 
+[ 2018-12-23 20:01:29 ] /**************************************************************/
+[ 2018-12-23 20:01:29 ] /*******		Extract 'css' files		**********/
+[ 2018-12-23 20:01:29 ] /*******		From    'index.html'      **********/
+[ 2018-12-23 20:01:29 ] /**************************************************************/
+[ 2018-12-23 20:01:29 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:29 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:29 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:29 ] folder_path = 
+[ 2018-12-23 20:01:29 ] file_url_from_html_never_changed = /web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827
+[ 2018-12-23 20:01:29 ] file url = https://web.archive.org/web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827
+[ 2018-12-23 20:01:29 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:29 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:29 ] URL = https://web.archive.org/web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827
+[ 2018-12-23 20:01:29 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:29 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:29 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:30 ] code = 200
+[ 2018-12-23 20:01:30 ] Final URL = https://web.archive.org/web/20150315023734cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:30 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:30 ] 
+[ 2018-12-23 20:01:30 ] 
+[ 2018-12-23 20:01:30 ] /**************************************************************/
+[ 2018-12-23 20:01:30 ] /*******		Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:30 ] /*******		From    'stylesheets/blueprint/screen.css'      **********/
+[ 2018-12-23 20:01:30 ] /**************************************************************/
+[ 2018-12-23 20:01:30 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:30 ] There is no file with type 'css_from_import'
+[ 2018-12-23 20:01:30 ] /*******		End : Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:30 ] /*******		      From    'stylesheets/blueprint/screen.css'      **********/
+[ 2018-12-23 20:01:30 ] 
+[ 2018-12-23 20:01:30 ] 
+[ 2018-12-23 20:01:30 ] 
+[ 2018-12-23 20:01:30 ] /**************************************************************/
+[ 2018-12-23 20:01:30 ] /*******		Extract 'fonts_from_css' files		**********/
+[ 2018-12-23 20:01:30 ] /*******		From    'stylesheets/blueprint/screen.css'      **********/
+[ 2018-12-23 20:01:30 ] /**************************************************************/
+[ 2018-12-23 20:01:30 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:30 ] There is no file with type 'fonts_from_css'
+[ 2018-12-23 20:01:30 ] /*******		End : Extract 'fonts_from_css' files		**********/
+[ 2018-12-23 20:01:30 ] /*******		      From    'stylesheets/blueprint/screen.css'      **********/
+[ 2018-12-23 20:01:30 ] 
+[ 2018-12-23 20:01:30 ] 
+[ 2018-12-23 20:01:30 ] 
+[ 2018-12-23 20:01:30 ] /**************************************************************/
+[ 2018-12-23 20:01:30 ] /*******		Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:30 ] /*******		From    'stylesheets/blueprint/screen.css'      **********/
+[ 2018-12-23 20:01:30 ] /**************************************************************/
+[ 2018-12-23 20:01:30 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:30 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:30 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:30 ] folder_path = stylesheets/blueprint/img
+[ 2018-12-23 20:01:30 ] file_url_from_html_never_changed = /web/20150315023734im_/http://www.touchmathematics.org/stylesheets/blueprint/src/grid.png
+[ 2018-12-23 20:01:30 ] file url = https://web.archive.org/web/20150315023734im_/http://www.touchmathematics.org/stylesheets/blueprint/src/grid.png
+[ 2018-12-23 20:01:30 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:30 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:30 ] URL = https://web.archive.org/web/20150315023734im_/http://www.touchmathematics.org/stylesheets/blueprint/src/grid.png
+[ 2018-12-23 20:01:30 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:30 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:30 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:31 ] code = 200
+[ 2018-12-23 20:01:31 ] Final URL = https://web.archive.org/web/20150315220309im_/http://www.touchmathematics.org/stylesheets/blueprint/src/grid.png ( Final code = 200 )
+[ 2018-12-23 20:01:31 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:31 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/blueprint/img/grid.png --> File Created !!!
+[ 2018-12-23 20:01:31 ] set_files_count_xml() function
+[ 2018-12-23 20:01:31 ] increment +1
+[ 2018-12-23 20:01:31 ] key = 'img' |  value = '1'
+[ 2018-12-23 20:01:31 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:31 ] stylesheets/blueprint/screen.css : REPLACE '/web/20150315023734im_/http://www.touchmathematics.org/stylesheets/blueprint/src/grid.png' WITH 'img/grid.png'
+[ 2018-12-23 20:01:31 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:31 ] folder_path = stylesheets/blueprint/img
+[ 2018-12-23 20:01:31 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:31 ] /*******		End : Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:31 ] /*******		      From    'stylesheets/blueprint/screen.css'      **********/
+[ 2018-12-23 20:01:31 ] 
+[ 2018-12-23 20:01:31 ] remove_web() function
+[ 2018-12-23 20:01:31 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/blueprint/screen.css --> File Created !!!
+[ 2018-12-23 20:01:31 ] set_files_count_xml() function
+[ 2018-12-23 20:01:31 ] increment +1
+[ 2018-12-23 20:01:31 ] key = 'css' |  value = '1'
+[ 2018-12-23 20:01:31 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:31 ] index.html : REPLACE '/web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827' WITH 'stylesheets/blueprint/screen.css'
+[ 2018-12-23 20:01:31 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:31 ] folder_path = 
+[ 2018-12-23 20:01:31 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:31 ] remove_web() function
+[ 2018-12-23 20:01:31 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:31 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:31 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:31 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:31 ] folder_path = 
+[ 2018-12-23 20:01:31 ] file_url_from_html_never_changed = /web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827
+[ 2018-12-23 20:01:31 ] file url = https://web.archive.org/web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827
+[ 2018-12-23 20:01:31 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:31 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:31 ] URL = https://web.archive.org/web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827
+[ 2018-12-23 20:01:31 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:31 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:31 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:32 ] code = 200
+[ 2018-12-23 20:01:32 ] Final URL = https://web.archive.org/web/20150315023950cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:32 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:32 ] 
+[ 2018-12-23 20:01:32 ] 
+[ 2018-12-23 20:01:32 ] /**************************************************************/
+[ 2018-12-23 20:01:32 ] /*******		Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:32 ] /*******		From    'stylesheets/blueprint/print.css'      **********/
+[ 2018-12-23 20:01:32 ] /**************************************************************/
+[ 2018-12-23 20:01:32 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:32 ] There is no file with type 'css_from_import'
+[ 2018-12-23 20:01:32 ] /*******		End : Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:32 ] /*******		      From    'stylesheets/blueprint/print.css'      **********/
+[ 2018-12-23 20:01:32 ] 
+[ 2018-12-23 20:01:32 ] 
+[ 2018-12-23 20:01:32 ] 
+[ 2018-12-23 20:01:32 ] /**************************************************************/
+[ 2018-12-23 20:01:32 ] /*******		Extract 'fonts_from_css' files		**********/
+[ 2018-12-23 20:01:32 ] /*******		From    'stylesheets/blueprint/print.css'      **********/
+[ 2018-12-23 20:01:32 ] /**************************************************************/
+[ 2018-12-23 20:01:32 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:32 ] There is no file with type 'fonts_from_css'
+[ 2018-12-23 20:01:32 ] /*******		End : Extract 'fonts_from_css' files		**********/
+[ 2018-12-23 20:01:32 ] /*******		      From    'stylesheets/blueprint/print.css'      **********/
+[ 2018-12-23 20:01:32 ] 
+[ 2018-12-23 20:01:32 ] 
+[ 2018-12-23 20:01:32 ] 
+[ 2018-12-23 20:01:32 ] /**************************************************************/
+[ 2018-12-23 20:01:32 ] /*******		Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:32 ] /*******		From    'stylesheets/blueprint/print.css'      **********/
+[ 2018-12-23 20:01:32 ] /**************************************************************/
+[ 2018-12-23 20:01:32 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:32 ] There is no file with type 'background_images'
+[ 2018-12-23 20:01:32 ] /*******		End : Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:32 ] /*******		      From    'stylesheets/blueprint/print.css'      **********/
+[ 2018-12-23 20:01:32 ] 
+[ 2018-12-23 20:01:32 ] remove_web() function
+[ 2018-12-23 20:01:32 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/blueprint/print.css --> File Created !!!
+[ 2018-12-23 20:01:32 ] set_files_count_xml() function
+[ 2018-12-23 20:01:32 ] increment +1
+[ 2018-12-23 20:01:32 ] key = 'css' |  value = '2'
+[ 2018-12-23 20:01:32 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:32 ] index.html : REPLACE '/web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827' WITH 'stylesheets/blueprint/print.css'
+[ 2018-12-23 20:01:32 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:32 ] folder_path = 
+[ 2018-12-23 20:01:32 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:32 ] remove_web() function
+[ 2018-12-23 20:01:32 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:32 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:32 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:32 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:32 ] folder_path = 
+[ 2018-12-23 20:01:32 ] file_url_from_html_never_changed = /web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827
+[ 2018-12-23 20:01:32 ] file url = https://web.archive.org/web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827
+[ 2018-12-23 20:01:32 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:32 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:32 ] URL = https://web.archive.org/web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827
+[ 2018-12-23 20:01:32 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:32 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:32 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:33 ] code = 200
+[ 2018-12-23 20:01:33 ] Final URL = https://web.archive.org/web/20150315023915cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:33 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] /**************************************************************/
+[ 2018-12-23 20:01:33 ] /*******		Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:33 ] /*******		From    'stylesheets/global.css'      **********/
+[ 2018-12-23 20:01:33 ] /**************************************************************/
+[ 2018-12-23 20:01:33 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:33 ] There is no file with type 'css_from_import'
+[ 2018-12-23 20:01:33 ] /*******		End : Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:33 ] /*******		      From    'stylesheets/global.css'      **********/
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] /**************************************************************/
+[ 2018-12-23 20:01:33 ] /*******		Extract 'fonts_from_css' files		**********/
+[ 2018-12-23 20:01:33 ] /*******		From    'stylesheets/global.css'      **********/
+[ 2018-12-23 20:01:33 ] /**************************************************************/
+[ 2018-12-23 20:01:33 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:33 ] There is no file with type 'fonts_from_css'
+[ 2018-12-23 20:01:33 ] /*******		End : Extract 'fonts_from_css' files		**********/
+[ 2018-12-23 20:01:33 ] /*******		      From    'stylesheets/global.css'      **********/
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] /**************************************************************/
+[ 2018-12-23 20:01:33 ] /*******		Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:33 ] /*******		From    'stylesheets/global.css'      **********/
+[ 2018-12-23 20:01:33 ] /**************************************************************/
+[ 2018-12-23 20:01:33 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:33 ] There is no file with type 'background_images'
+[ 2018-12-23 20:01:33 ] /*******		End : Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:33 ] /*******		      From    'stylesheets/global.css'      **********/
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] remove_web() function
+[ 2018-12-23 20:01:33 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/global.css --> File Created !!!
+[ 2018-12-23 20:01:33 ] set_files_count_xml() function
+[ 2018-12-23 20:01:33 ] increment +1
+[ 2018-12-23 20:01:33 ] key = 'css' |  value = '3'
+[ 2018-12-23 20:01:33 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:33 ] index.html : REPLACE '/web/20150315011558cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827' WITH 'stylesheets/global.css'
+[ 2018-12-23 20:01:33 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:33 ] folder_path = 
+[ 2018-12-23 20:01:33 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:33 ] remove_web() function
+[ 2018-12-23 20:01:33 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:33 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:33 ] /*******		End : Extract 'css' files		**********/
+[ 2018-12-23 20:01:33 ] /*******		      From    'index.html'      **********/
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] 
+[ 2018-12-23 20:01:33 ] /**************************************************************/
+[ 2018-12-23 20:01:33 ] /*******		Extract 'img' files		**********/
+[ 2018-12-23 20:01:33 ] /*******		From    'index.html'      **********/
+[ 2018-12-23 20:01:33 ] /**************************************************************/
+[ 2018-12-23 20:01:33 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:33 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:33 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:33 ] folder_path = 
+[ 2018-12-23 20:01:33 ] file_url_from_html_never_changed = /web/20150315011558im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827
+[ 2018-12-23 20:01:33 ] file url = https://web.archive.org/web/20150315011558im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827
+[ 2018-12-23 20:01:33 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:33 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:33 ] URL = https://web.archive.org/web/20150315011558im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827
+[ 2018-12-23 20:01:33 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:33 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:33 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:34 ] code = 200
+[ 2018-12-23 20:01:34 ] Final URL = https://web.archive.org/web/20150315023859im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:34 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:34 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/logo_tiny.png --> File Created !!!
+[ 2018-12-23 20:01:34 ] set_files_count_xml() function
+[ 2018-12-23 20:01:34 ] increment +1
+[ 2018-12-23 20:01:34 ] key = 'img' |  value = '2'
+[ 2018-12-23 20:01:34 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:34 ] index.html : REPLACE '/web/20150315011558im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827' WITH 'images/logo_tiny.png'
+[ 2018-12-23 20:01:34 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:34 ] folder_path = 
+[ 2018-12-23 20:01:34 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:34 ] remove_web() function
+[ 2018-12-23 20:01:34 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:34 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:34 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:34 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:34 ] folder_path = 
+[ 2018-12-23 20:01:34 ] file_url_from_html_never_changed = /web/20150315011558im_/http://www.touchmathematics.org/images/logo_big.jpg?1383415827
+[ 2018-12-23 20:01:34 ] file url = https://web.archive.org/web/20150315011558im_/http://www.touchmathematics.org/images/logo_big.jpg?1383415827
+[ 2018-12-23 20:01:34 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:34 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:34 ] URL = https://web.archive.org/web/20150315011558im_/http://www.touchmathematics.org/images/logo_big.jpg?1383415827
+[ 2018-12-23 20:01:34 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:34 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:34 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:35 ] code = 200
+[ 2018-12-23 20:01:35 ] Final URL = https://web.archive.org/web/20150315023637im_/http://www.touchmathematics.org/images/logo_big.jpg?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:35 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:35 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/logo_big.jpg --> File Created !!!
+[ 2018-12-23 20:01:35 ] set_files_count_xml() function
+[ 2018-12-23 20:01:35 ] increment +1
+[ 2018-12-23 20:01:35 ] key = 'img' |  value = '3'
+[ 2018-12-23 20:01:35 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:35 ] index.html : REPLACE '/web/20150315011558im_/http://www.touchmathematics.org/images/logo_big.jpg?1383415827' WITH 'images/logo_big.jpg'
+[ 2018-12-23 20:01:35 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:35 ] folder_path = 
+[ 2018-12-23 20:01:35 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:35 ] remove_web() function
+[ 2018-12-23 20:01:35 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:35 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:35 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:35 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:35 ] folder_path = 
+[ 2018-12-23 20:01:35 ] file_url_from_html_never_changed = /web/20150315011558im_/http://www.touchmathematics.org/images/derivatives.png?1383415827
+[ 2018-12-23 20:01:35 ] file url = https://web.archive.org/web/20150315011558im_/http://www.touchmathematics.org/images/derivatives.png?1383415827
+[ 2018-12-23 20:01:35 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:35 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:35 ] URL = https://web.archive.org/web/20150315011558im_/http://www.touchmathematics.org/images/derivatives.png?1383415827
+[ 2018-12-23 20:01:35 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:35 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:35 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:37 ] code = 200
+[ 2018-12-23 20:01:37 ] Final URL = https://web.archive.org/web/20150315023541im_/http://www.touchmathematics.org/images/derivatives.png?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:37 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:37 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/derivatives.png --> File Created !!!
+[ 2018-12-23 20:01:37 ] set_files_count_xml() function
+[ 2018-12-23 20:01:37 ] increment +1
+[ 2018-12-23 20:01:37 ] key = 'img' |  value = '4'
+[ 2018-12-23 20:01:37 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:37 ] index.html : REPLACE '/web/20150315011558im_/http://www.touchmathematics.org/images/derivatives.png?1383415827' WITH 'images/derivatives.png'
+[ 2018-12-23 20:01:37 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:37 ] folder_path = 
+[ 2018-12-23 20:01:37 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:37 ] remove_web() function
+[ 2018-12-23 20:01:37 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:37 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:37 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:37 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:37 ] folder_path = 
+[ 2018-12-23 20:01:37 ] file_url_from_html_never_changed = /web/20150315011558im_/http://www.touchmathematics.org/images/trigonometry.png?1383415827
+[ 2018-12-23 20:01:37 ] file url = https://web.archive.org/web/20150315011558im_/http://www.touchmathematics.org/images/trigonometry.png?1383415827
+[ 2018-12-23 20:01:37 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:37 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:37 ] URL = https://web.archive.org/web/20150315011558im_/http://www.touchmathematics.org/images/trigonometry.png?1383415827
+[ 2018-12-23 20:01:37 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:37 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:37 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:38 ] code = 200
+[ 2018-12-23 20:01:38 ] Final URL = https://web.archive.org/web/20150315024023im_/http://www.touchmathematics.org/images/trigonometry.png?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:38 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:38 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/trigonometry.png --> File Created !!!
+[ 2018-12-23 20:01:38 ] set_files_count_xml() function
+[ 2018-12-23 20:01:38 ] increment +1
+[ 2018-12-23 20:01:38 ] key = 'img' |  value = '5'
+[ 2018-12-23 20:01:38 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:38 ] index.html : REPLACE '/web/20150315011558im_/http://www.touchmathematics.org/images/trigonometry.png?1383415827' WITH 'images/trigonometry.png'
+[ 2018-12-23 20:01:38 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:38 ] folder_path = 
+[ 2018-12-23 20:01:38 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:38 ] remove_web() function
+[ 2018-12-23 20:01:38 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:38 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:38 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:38 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:38 ] folder_path = 
+[ 2018-12-23 20:01:38 ] file_url_from_html_never_changed = /web/20150315011558im_/http://www.touchmathematics.org/images/logo.png?1383415827
+[ 2018-12-23 20:01:38 ] file url = https://web.archive.org/web/20150315011558im_/http://www.touchmathematics.org/images/logo.png?1383415827
+[ 2018-12-23 20:01:38 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:38 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:38 ] URL = https://web.archive.org/web/20150315011558im_/http://www.touchmathematics.org/images/logo.png?1383415827
+[ 2018-12-23 20:01:38 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:38 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:38 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:39 ] code = 200
+[ 2018-12-23 20:01:39 ] Final URL = https://web.archive.org/web/20150315023736im_/http://www.touchmathematics.org/images/logo.png?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:39 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:39 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/logo.png --> File Created !!!
+[ 2018-12-23 20:01:39 ] set_files_count_xml() function
+[ 2018-12-23 20:01:39 ] increment +1
+[ 2018-12-23 20:01:39 ] key = 'img' |  value = '6'
+[ 2018-12-23 20:01:39 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:39 ] index.html : REPLACE '/web/20150315011558im_/http://www.touchmathematics.org/images/logo.png?1383415827' WITH 'images/logo.png'
+[ 2018-12-23 20:01:39 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:39 ] folder_path = 
+[ 2018-12-23 20:01:39 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:39 ] remove_web() function
+[ 2018-12-23 20:01:39 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:39 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:39 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:39 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:39 ] folder_path = 
+[ 2018-12-23 20:01:39 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315011558im_/http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
+[ 2018-12-23 20:01:39 ] file url = https://web.archive.org/web/20150315011558im_/http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
+[ 2018-12-23 20:01:39 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:39 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:39 ] URL = https://web.archive.org/web/20150315011558im_/http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
+[ 2018-12-23 20:01:39 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:39 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:39 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:44 ] code = 200
+[ 2018-12-23 20:01:44 ] Final URL = https://web.archive.org/web/20150315021942im_/https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png ( Final code = 200 )
+[ 2018-12-23 20:01:44 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:44 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/l/by-nc-sa/3.0/88x31.png --> File Created !!!
+[ 2018-12-23 20:01:44 ] set_files_count_xml() function
+[ 2018-12-23 20:01:44 ] increment +1
+[ 2018-12-23 20:01:44 ] key = 'img' |  value = '7'
+[ 2018-12-23 20:01:44 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:44 ] index.html : REPLACE 'https://web.archive.org/web/20150315011558im_/http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png' WITH 'l/by-nc-sa/3.0/88x31.png'
+[ 2018-12-23 20:01:44 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:44 ] folder_path = 
+[ 2018-12-23 20:01:44 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:44 ] remove_web() function
+[ 2018-12-23 20:01:44 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:44 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:44 ] /*******		End : Extract 'img' files		**********/
+[ 2018-12-23 20:01:44 ] /*******		      From    'index.html'      **********/
+[ 2018-12-23 20:01:44 ] 
+[ 2018-12-23 20:01:44 ] 
+[ 2018-12-23 20:01:44 ] 
+[ 2018-12-23 20:01:44 ] /**************************************************************/
+[ 2018-12-23 20:01:44 ] /*******		Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:44 ] /*******		From    'index.html'      **********/
+[ 2018-12-23 20:01:44 ] /**************************************************************/
+[ 2018-12-23 20:01:44 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:44 ] There is no file with type 'background_images'
+[ 2018-12-23 20:01:44 ] /*******		End : Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:44 ] /*******		      From    'index.html'      **********/
+[ 2018-12-23 20:01:44 ] 
+[ 2018-12-23 20:01:44 ] 
+[ 2018-12-23 20:01:44 ] 
+[ 2018-12-23 20:01:44 ] /**************************************************************/
+[ 2018-12-23 20:01:44 ] /*******		Extract 'background_images_in_html' files		**********/
+[ 2018-12-23 20:01:44 ] /*******		From    'index.html'      **********/
+[ 2018-12-23 20:01:44 ] /**************************************************************/
+[ 2018-12-23 20:01:44 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:44 ] There is no file with type 'background_images_in_html'
+[ 2018-12-23 20:01:44 ] /*******		End : Extract 'background_images_in_html' files		**********/
+[ 2018-12-23 20:01:44 ] /*******		      From    'index.html'      **********/
+[ 2018-12-23 20:01:44 ] 
+[ 2018-12-23 20:01:44 ] 
+[ 2018-12-23 20:01:44 ] 
+[ 2018-12-23 20:01:44 ] /**************************************************************/
+[ 2018-12-23 20:01:44 ] /*******		Extract 'script' files		**********/
+[ 2018-12-23 20:01:44 ] /*******		From    'index.html'      **********/
+[ 2018-12-23 20:01:44 ] /**************************************************************/
+[ 2018-12-23 20:01:44 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:44 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:44 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:44 ] folder_path = 
+[ 2018-12-23 20:01:44 ] file_url_from_html_never_changed = /web/20150315011558js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827
+[ 2018-12-23 20:01:44 ] file url = https://web.archive.org/web/20150315011558js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827
+[ 2018-12-23 20:01:44 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:44 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:44 ] URL = https://web.archive.org/web/20150315011558js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827
+[ 2018-12-23 20:01:44 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:44 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:44 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:45 ] code = 200
+[ 2018-12-23 20:01:45 ] Final URL = https://web.archive.org/web/20150315023537js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:45 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:45 ] remove_web() function
+[ 2018-12-23 20:01:46 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/javascripts/jquery.min.js --> File Created !!!
+[ 2018-12-23 20:01:46 ] set_files_count_xml() function
+[ 2018-12-23 20:01:46 ] increment +1
+[ 2018-12-23 20:01:46 ] key = 'js' |  value = '1'
+[ 2018-12-23 20:01:46 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:46 ] index.html : REPLACE '/web/20150315011558js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827' WITH 'javascripts/jquery.min.js'
+[ 2018-12-23 20:01:46 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:46 ] folder_path = 
+[ 2018-12-23 20:01:46 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:46 ] remove_web() function
+[ 2018-12-23 20:01:46 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:46 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:46 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:46 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:46 ] folder_path = 
+[ 2018-12-23 20:01:46 ] file_url_from_html_never_changed = /web/20150315011558js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827
+[ 2018-12-23 20:01:46 ] file url = https://web.archive.org/web/20150315011558js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827
+[ 2018-12-23 20:01:46 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:46 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:46 ] URL = https://web.archive.org/web/20150315011558js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827
+[ 2018-12-23 20:01:46 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:46 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:46 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:46 ] code = 200
+[ 2018-12-23 20:01:46 ] Final URL = https://web.archive.org/web/20150315023454js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:46 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:46 ] remove_web() function
+[ 2018-12-23 20:01:46 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/javascripts/touchmath.js --> File Created !!!
+[ 2018-12-23 20:01:46 ] set_files_count_xml() function
+[ 2018-12-23 20:01:46 ] increment +1
+[ 2018-12-23 20:01:46 ] key = 'js' |  value = '2'
+[ 2018-12-23 20:01:46 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:46 ] index.html : REPLACE '/web/20150315011558js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827' WITH 'javascripts/touchmath.js'
+[ 2018-12-23 20:01:46 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:46 ] folder_path = 
+[ 2018-12-23 20:01:46 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:46 ] remove_web() function
+[ 2018-12-23 20:01:46 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:46 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:46 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:46 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:46 ] folder_path = 
+[ 2018-12-23 20:01:46 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315011558js_/http://platform.twitter.com/widgets.js
+[ 2018-12-23 20:01:46 ] file url = https://web.archive.org/web/20150315011558js_/http://platform.twitter.com/widgets.js
+[ 2018-12-23 20:01:46 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:46 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:46 ] URL = https://web.archive.org/web/20150315011558js_/http://platform.twitter.com/widgets.js
+[ 2018-12-23 20:01:46 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:46 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:46 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:49 ] code = 200
+[ 2018-12-23 20:01:49 ] Final URL = https://web.archive.org/web/20150315011713js_/http://platform.twitter.com/widgets.js ( Final code = 200 )
+[ 2018-12-23 20:01:49 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:49 ] remove_web() function
+[ 2018-12-23 20:01:49 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/widgets.js --> File Created !!!
+[ 2018-12-23 20:01:49 ] set_files_count_xml() function
+[ 2018-12-23 20:01:49 ] increment +1
+[ 2018-12-23 20:01:49 ] key = 'js' |  value = '3'
+[ 2018-12-23 20:01:49 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:49 ] index.html : REPLACE 'https://web.archive.org/web/20150315011558js_/http://platform.twitter.com/widgets.js' WITH 'widgets.js'
+[ 2018-12-23 20:01:49 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:49 ] folder_path = 
+[ 2018-12-23 20:01:49 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:49 ] remove_web() function
+[ 2018-12-23 20:01:49 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:49 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:49 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:49 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:49 ] folder_path = 
+[ 2018-12-23 20:01:49 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315011558js_/http://www.reddit.com/static/button/button1.js
+[ 2018-12-23 20:01:49 ] file url = https://web.archive.org/web/20150315011558js_/http://www.reddit.com/static/button/button1.js
+[ 2018-12-23 20:01:49 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:49 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:49 ] URL = https://web.archive.org/web/20150315011558js_/http://www.reddit.com/static/button/button1.js
+[ 2018-12-23 20:01:49 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:49 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:49 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:51 ] code = 200
+[ 2018-12-23 20:01:51 ] Final URL = https://web.archive.org/web/20150315014516js_/http://www.reddit.com/static/button/button1.js ( Final code = 200 )
+[ 2018-12-23 20:01:51 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:51 ] remove_web() function
+[ 2018-12-23 20:01:51 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/static/button/button1.js --> File Created !!!
+[ 2018-12-23 20:01:51 ] set_files_count_xml() function
+[ 2018-12-23 20:01:51 ] increment +1
+[ 2018-12-23 20:01:51 ] key = 'js' |  value = '4'
+[ 2018-12-23 20:01:51 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:51 ] index.html : REPLACE 'https://web.archive.org/web/20150315011558js_/http://www.reddit.com/static/button/button1.js' WITH 'static/button/button1.js'
+[ 2018-12-23 20:01:51 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:51 ] folder_path = 
+[ 2018-12-23 20:01:51 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:51 ] remove_web() function
+[ 2018-12-23 20:01:51 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:51 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:51 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:51 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:51 ] folder_path = 
+[ 2018-12-23 20:01:51 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315011558js_/http://www.stumbleupon.com/hostedbadge.php?s=1
+[ 2018-12-23 20:01:51 ] file url = https://web.archive.org/web/20150315011558js_/http://www.stumbleupon.com/hostedbadge.php?s=1
+[ 2018-12-23 20:01:51 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:51 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:51 ] URL = https://web.archive.org/web/20150315011558js_/http://www.stumbleupon.com/hostedbadge.php?s=1
+[ 2018-12-23 20:01:51 ] main_archive_url = https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/
+[ 2018-12-23 20:01:51 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:51 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:54 ] code = 200
+[ 2018-12-23 20:01:54 ] Final URL = https://web.archive.org/web/20150314230559js_/http://www.stumbleupon.com/hostedbadge.php?s=1 ( Final code = 200 )
+[ 2018-12-23 20:01:54 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:54 ] remove_web() function
+[ 2018-12-23 20:01:54 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/hostedbadge.php_s_1.js --> File Created !!!
+[ 2018-12-23 20:01:54 ] set_files_count_xml() function
+[ 2018-12-23 20:01:54 ] increment +1
+[ 2018-12-23 20:01:54 ] key = 'js' |  value = '5'
+[ 2018-12-23 20:01:54 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:54 ] index.html : REPLACE 'https://web.archive.org/web/20150315011558js_/http://www.stumbleupon.com/hostedbadge.php?s=1' WITH 'hostedbadge.php_s_1.js'
+[ 2018-12-23 20:01:54 ] update_html_file_path = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:54 ] folder_path = 
+[ 2018-12-23 20:01:54 ] Page updated = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html
+[ 2018-12-23 20:01:54 ] remove_web() function
+[ 2018-12-23 20:01:54 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html ( Front page ) : update index.html
+[ 2018-12-23 20:01:54 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:54 ] /*******		End : Extract 'script' files		**********/
+[ 2018-12-23 20:01:54 ] /*******		      From    'index.html'      **********/
+[ 2018-12-23 20:01:54 ] 
+[ 2018-12-23 20:01:54 ] 
+[ 2018-12-23 20:01:54 ] 
+[ 2018-12-23 20:01:54 ] /**************************************************************/
+[ 2018-12-23 20:01:54 ] /*******		Extract 'swf' files		**********/
+[ 2018-12-23 20:01:54 ] /*******		From    'index.html'      **********/
+[ 2018-12-23 20:01:54 ] /**************************************************************/
+[ 2018-12-23 20:01:54 ] We still update 'files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html'
+[ 2018-12-23 20:01:54 ] There is no file with type 'swf'
+[ 2018-12-23 20:01:54 ] /*******		End : Extract 'swf' files		**********/
+[ 2018-12-23 20:01:54 ] /*******		      From    'index.html'      **********/
+[ 2018-12-23 20:01:54 ] 
+[ 2018-12-23 20:01:54 ] remove_web() function
+[ 2018-12-23 20:01:54 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/index.html --> HTML File Created !!!
+[ 2018-12-23 20:01:54 ] ----------------------------------------------------------------------
+[ 2018-12-23 20:01:54 ] update  to_create_arr[0][is_done] = 1
+[ 2018-12-23 20:01:54 ] set_files_count_xml() function
+[ 2018-12-23 20:01:54 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:01:54 ] key = 'html_done' |  value = '1'
+[ 2018-12-23 20:01:54 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:54 ] ( 1 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:54 ] ------------------------------------------------------------------
+[ 2018-12-23 20:01:54 ] set_files_count_xml() function
+[ 2018-12-23 20:01:54 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:01:54 ] key = 'html_done' |  value = '1'
+[ 2018-12-23 20:01:54 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:54 ] ( 1 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:54 ] topics/derivatives.html -> File name found in to_create_arr
+[ 2018-12-23 20:01:54 ] #####################################################################################################
+[ 2018-12-23 20:01:54 ] ###############https://web.archive.org/web/20150315011435/http://www.touchmathematics.org/topics/derivatives ( Scraping  of 2 / 6 )  - 0 error pages fixed###############
+[ 2018-12-23 20:01:54 ] ###############Local URL = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/topics/derivatives.html (code = 200) ###############
+[ 2018-12-23 20:01:54 ] ###############Try number = 1###############
+[ 2018-12-23 20:01:54 ] #####################################################################################################
+[ 2018-12-23 20:01:54 ]  Main level =1
+[ 2018-12-23 20:01:54 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:54 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:54 ] URL = https://web.archive.org/web/20150315011435/http://www.touchmathematics.org/topics/derivatives
+[ 2018-12-23 20:01:54 ] main_archive_url = https://web.archive.org/web/20150315011435/http://www.touchmathematics.org/topics/derivatives
+[ 2018-12-23 20:01:54 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-23 20:01:54 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:55 ] code = 200
+[ 2018-12-23 20:01:55 ] Final URL = https://web.archive.org/web/20150315011435/http://www.touchmathematics.org/topics%2Fderivatives ( Final code = 200 )
+[ 2018-12-23 20:01:55 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:55 ] removeArchiveHeader() from the HTML file
+[ 2018-12-23 20:01:55 ] Original encoding = UTF-8
+[ 2018-12-23 20:01:55 ] Original encoding is in probably UTF-8= true
+[ 2018-12-23 20:01:55 ] ----------------------------------------
+[ 2018-12-23 20:01:55 ] Check Encoding And then fix it
+[ 2018-12-23 20:01:55 ] Final encoding = UTF-8
+[ 2018-12-23 20:01:55 ] Language = N/A
+[ 2018-12-23 20:01:55 ] Is pertty URL : 1
+[ 2018-12-23 20:01:55 ] ###############################################################
+[ 2018-12-23 20:01:55 ] href  = /web/20150315011435/http://www.touchmathematics.org/ - [( 0/10 )]
+[ 2018-12-23 20:01:55 ] file_url = /web/20150315011435/http://www.touchmathematics.org/ ( is_internal_url = 1 )
+[ 2018-12-23 20:01:55 ] 1 - 'topics/derivatives.html' : Replace 'https://web.archive.org/web/20150315011435/http://www.touchmathematics.org/' with '/'
+[ 2018-12-23 20:01:55 ] 2 - 'topics/derivatives.html' : Replace '/web/20150315011435/http://www.touchmathematics.org/' with '/'
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] ###############################################################
+[ 2018-12-23 20:01:55 ] href  = https://web.archive.org/web/20150315011435/http://twitter.com/share - [( 1/10 )]
+[ 2018-12-23 20:01:55 ] file_url = /web/20150315011435/http://twitter.com/share ( is_internal_url =  )
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] ###############################################################
+[ 2018-12-23 20:01:55 ] href  = https://web.archive.org/web/20150315011435/http://www.activatejavascript.org/ - [( 2/10 )]
+[ 2018-12-23 20:01:55 ] file_url = /web/20150315011435/http://www.activatejavascript.org/ ( is_internal_url =  )
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] ###############################################################
+[ 2018-12-23 20:01:55 ] href  = https://web.archive.org/web/20150315011435/http://disqus.com/?ref_noscript - [( 3/10 )]
+[ 2018-12-23 20:01:55 ] file_url = /web/20150315011435/http://disqus.com/?ref_noscript ( is_internal_url =  )
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] ###############################################################
+[ 2018-12-23 20:01:55 ] href  = https://web.archive.org/web/20150315011435/http://disqus.com/ - [( 4/10 )]
+[ 2018-12-23 20:01:55 ] file_url = /web/20150315011435/http://disqus.com/ ( is_internal_url =  )
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] ###############################################################
+[ 2018-12-23 20:01:55 ] href  = /web/20150315011435/http://www.touchmathematics.org/about - [( 5/10 )]
+[ 2018-12-23 20:01:55 ] file_url = /web/20150315011435/http://www.touchmathematics.org/about ( is_internal_url = 1 )
+[ 2018-12-23 20:01:55 ] this file_name already exist in 'to_create_arr' => 'about.html'
+[ 2018-12-23 20:01:55 ] 2 - 'topics/derivatives.html' : Replace '/web/20150315011435/http://www.touchmathematics.org/about' with '../../about/'
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] ###############################################################
+[ 2018-12-23 20:01:55 ] href  = /web/20150315011435/http://www.touchmathematics.org/terms - [( 6/10 )]
+[ 2018-12-23 20:01:55 ] file_url = /web/20150315011435/http://www.touchmathematics.org/terms ( is_internal_url = 1 )
+[ 2018-12-23 20:01:55 ] this file_name already exist in 'to_create_arr' => 'terms.html'
+[ 2018-12-23 20:01:55 ] 2 - 'topics/derivatives.html' : Replace '/web/20150315011435/http://www.touchmathematics.org/terms' with '../../terms/'
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] ###############################################################
+[ 2018-12-23 20:01:55 ] href  = /web/20150315011435/http://www.touchmathematics.org/privacy - [( 7/10 )]
+[ 2018-12-23 20:01:55 ] file_url = /web/20150315011435/http://www.touchmathematics.org/privacy ( is_internal_url = 1 )
+[ 2018-12-23 20:01:55 ] this file_name already exist in 'to_create_arr' => 'privacy.html'
+[ 2018-12-23 20:01:55 ] 2 - 'topics/derivatives.html' : Replace '/web/20150315011435/http://www.touchmathematics.org/privacy' with '../../privacy/'
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] ###############################################################
+[ 2018-12-23 20:01:55 ] href  = https://web.archive.org/web/20150315011435/http://creativecommons.org/licenses/by-nc-sa/3.0/ - [( 8/10 )]
+[ 2018-12-23 20:01:55 ] file_url = /web/20150315011435/http://creativecommons.org/licenses/by-nc-sa/3.0/ ( is_internal_url =  )
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] ###############################################################
+[ 2018-12-23 20:01:55 ] href  = https://web.archive.org/web/20150315011435if_/http://www.facebook.com/plugins/like.php?href&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21 - [( 9/10 )]
+[ 2018-12-23 20:01:55 ] file_url = /web/20150315011435if_/http://www.facebook.com/plugins/like.php?href&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21 ( is_internal_url =  )
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] Removed external links total ( 0 / 6 )
+[ 2018-12-23 20:01:55 ] local_file_path not created yet = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/topics/derivatives.html
+[ 2018-12-23 20:01:55 ] code = 200
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] /*******		Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] There is no file with type 'css_from_import'
+[ 2018-12-23 20:01:55 ] /*******		End : Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		      From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] /*******		Extract 'fonts_from_html' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] There is no file with type 'fonts_from_html'
+[ 2018-12-23 20:01:55 ] /*******		End : Extract 'fonts_from_html' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		      From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] /*******		Extract 'css' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] file_url_from_html_never_changed = /web/20150315011435cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827
+[ 2018-12-23 20:01:55 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/blueprint/screen.css
+[ 2018-12-23 20:01:55 ] topics/derivatives.html : REPLACE '/web/20150315011435cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827' WITH '../../stylesheets/blueprint/screen.css'
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] file_url_from_html_never_changed = /web/20150315011435cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827
+[ 2018-12-23 20:01:55 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/blueprint/print.css
+[ 2018-12-23 20:01:55 ] topics/derivatives.html : REPLACE '/web/20150315011435cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827' WITH '../../stylesheets/blueprint/print.css'
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] file_url_from_html_never_changed = /web/20150315011435cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827
+[ 2018-12-23 20:01:55 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/global.css
+[ 2018-12-23 20:01:55 ] topics/derivatives.html : REPLACE '/web/20150315011435cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827' WITH '../../stylesheets/global.css'
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] /*******		End : Extract 'css' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		      From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] /*******		Extract 'img' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] file_url_from_html_never_changed = /web/20150315011435im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827
+[ 2018-12-23 20:01:55 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/logo_tiny.png
+[ 2018-12-23 20:01:55 ] topics/derivatives.html : REPLACE '/web/20150315011435im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827' WITH '../../images/logo_tiny.png'
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] file_url_from_html_never_changed = /web/20150315011435im_/http://www.touchmathematics.org/images/logo.png?1383415827
+[ 2018-12-23 20:01:55 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/logo.png
+[ 2018-12-23 20:01:55 ] topics/derivatives.html : REPLACE '/web/20150315011435im_/http://www.touchmathematics.org/images/logo.png?1383415827' WITH '../../images/logo.png'
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315011435im_/http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
+[ 2018-12-23 20:01:55 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/l/by-nc-sa/3.0/88x31.png
+[ 2018-12-23 20:01:55 ] topics/derivatives.html : REPLACE 'https://web.archive.org/web/20150315011435im_/http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png' WITH '../../l/by-nc-sa/3.0/88x31.png'
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] /*******		End : Extract 'img' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		      From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] /*******		Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] There is no file with type 'background_images'
+[ 2018-12-23 20:01:55 ] /*******		End : Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		      From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] /*******		Extract 'background_images_in_html' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] There is no file with type 'background_images_in_html'
+[ 2018-12-23 20:01:55 ] /*******		End : Extract 'background_images_in_html' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		      From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] 
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] /*******		Extract 'script' files		**********/
+[ 2018-12-23 20:01:55 ] /*******		From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:55 ] /**************************************************************/
+[ 2018-12-23 20:01:55 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] file_url_from_html_never_changed = /web/20150315011435js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827
+[ 2018-12-23 20:01:55 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/javascripts/jquery.min.js
+[ 2018-12-23 20:01:55 ] topics/derivatives.html : REPLACE '/web/20150315011435js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827' WITH '../../javascripts/jquery.min.js'
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] file_url_from_html_never_changed = /web/20150315011435js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827
+[ 2018-12-23 20:01:55 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/javascripts/touchmath.js
+[ 2018-12-23 20:01:55 ] topics/derivatives.html : REPLACE '/web/20150315011435js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827' WITH '../../javascripts/touchmath.js'
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:55 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:55 ] update_html_file_path = 
+[ 2018-12-23 20:01:55 ] folder_path = 
+[ 2018-12-23 20:01:55 ] file_url_from_html_never_changed = /web/20150315011435js_/http://www.touchmathematics.org/javascripts/topics/derivatives/main.js?1383415827
+[ 2018-12-23 20:01:55 ] file url = https://web.archive.org/web/20150315011435js_/http://www.touchmathematics.org/javascripts/topics/derivatives/main.js?1383415827
+[ 2018-12-23 20:01:55 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:55 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:55 ] URL = https://web.archive.org/web/20150315011435js_/http://www.touchmathematics.org/javascripts/topics/derivatives/main.js?1383415827
+[ 2018-12-23 20:01:55 ] main_archive_url = https://web.archive.org/web/20150315011435/http://www.touchmathematics.org/topics/derivatives
+[ 2018-12-23 20:01:55 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:55 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:56 ] code = 200
+[ 2018-12-23 20:01:56 ] Final URL = https://web.archive.org/web/20150315153955js_/http://www.touchmathematics.org/javascripts/topics/derivatives/main.js?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:56 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:56 ] remove_web() function
+[ 2018-12-23 20:01:56 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/javascripts/topics/derivatives/main.js --> File Created !!!
+[ 2018-12-23 20:01:56 ] set_files_count_xml() function
+[ 2018-12-23 20:01:56 ] increment +1
+[ 2018-12-23 20:01:56 ] key = 'js' |  value = '6'
+[ 2018-12-23 20:01:56 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:56 ] topics/derivatives.html : REPLACE '/web/20150315011435js_/http://www.touchmathematics.org/javascripts/topics/derivatives/main.js?1383415827' WITH '../../javascripts/topics/derivatives/main.js'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315011435js_/http://platform.twitter.com/widgets.js
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/widgets.js
+[ 2018-12-23 20:01:56 ] topics/derivatives.html : REPLACE 'https://web.archive.org/web/20150315011435js_/http://platform.twitter.com/widgets.js' WITH '../../widgets.js'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315011435js_/http://www.reddit.com/static/button/button1.js
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/static/button/button1.js
+[ 2018-12-23 20:01:56 ] topics/derivatives.html : REPLACE 'https://web.archive.org/web/20150315011435js_/http://www.reddit.com/static/button/button1.js' WITH '../../static/button/button1.js'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315011435js_/http://www.stumbleupon.com/hostedbadge.php?s=1
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/hostedbadge.php_s_1.js
+[ 2018-12-23 20:01:56 ] topics/derivatives.html : REPLACE 'https://web.archive.org/web/20150315011435js_/http://www.stumbleupon.com/hostedbadge.php?s=1' WITH '../../hostedbadge.php_s_1.js'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] /*******		End : Extract 'script' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		      From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] /*******		Extract 'swf' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] There is no file with type 'swf'
+[ 2018-12-23 20:01:56 ] /*******		End : Extract 'swf' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		      From    'topics/derivatives.html'      **********/
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] remove_web() function
+[ 2018-12-23 20:01:56 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/topics/derivatives.html --> HTML File Created !!!
+[ 2018-12-23 20:01:56 ] ----------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] update  to_create_arr[1][is_done] = 1
+[ 2018-12-23 20:01:56 ] set_files_count_xml() function
+[ 2018-12-23 20:01:56 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:01:56 ] key = 'html_done' |  value = '2'
+[ 2018-12-23 20:01:56 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ( 2 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:56 ] ------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] set_files_count_xml() function
+[ 2018-12-23 20:01:56 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:01:56 ] key = 'html_done' |  value = '2'
+[ 2018-12-23 20:01:56 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ( 2 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:56 ] topics/trigonometry.html -> File name found in to_create_arr
+[ 2018-12-23 20:01:56 ] #####################################################################################################
+[ 2018-12-23 20:01:56 ] ###############https://web.archive.org/web/20150315013505/http://www.touchmathematics.org/topics/trigonometry ( Scraping  of 3 / 6 )  - 0 error pages fixed###############
+[ 2018-12-23 20:01:56 ] ###############Local URL = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/topics/trigonometry.html (code = 200) ###############
+[ 2018-12-23 20:01:56 ] ###############Try number = 1###############
+[ 2018-12-23 20:01:56 ] #####################################################################################################
+[ 2018-12-23 20:01:56 ]  Main level =1
+[ 2018-12-23 20:01:56 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:56 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:56 ] URL = https://web.archive.org/web/20150315013505/http://www.touchmathematics.org/topics/trigonometry
+[ 2018-12-23 20:01:56 ] main_archive_url = https://web.archive.org/web/20150315013505/http://www.touchmathematics.org/topics/trigonometry
+[ 2018-12-23 20:01:56 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-23 20:01:56 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:56 ] code = 200
+[ 2018-12-23 20:01:56 ] Final URL = https://web.archive.org/web/20150315013505/http://www.touchmathematics.org/topics%2Ftrigonometry ( Final code = 200 )
+[ 2018-12-23 20:01:56 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:56 ] removeArchiveHeader() from the HTML file
+[ 2018-12-23 20:01:56 ] Original encoding = UTF-8
+[ 2018-12-23 20:01:56 ] Original encoding is in probably UTF-8= true
+[ 2018-12-23 20:01:56 ] ----------------------------------------
+[ 2018-12-23 20:01:56 ] Check Encoding And then fix it
+[ 2018-12-23 20:01:56 ] Final encoding = UTF-8
+[ 2018-12-23 20:01:56 ] Language = N/A
+[ 2018-12-23 20:01:56 ] Is pertty URL : 1
+[ 2018-12-23 20:01:56 ] ###############################################################
+[ 2018-12-23 20:01:56 ] href  = /web/20150315013505/http://www.touchmathematics.org/ - [( 0/10 )]
+[ 2018-12-23 20:01:56 ] file_url = /web/20150315013505/http://www.touchmathematics.org/ ( is_internal_url = 1 )
+[ 2018-12-23 20:01:56 ] 1 - 'topics/trigonometry.html' : Replace 'https://web.archive.org/web/20150315013505/http://www.touchmathematics.org/' with '/'
+[ 2018-12-23 20:01:56 ] 2 - 'topics/trigonometry.html' : Replace '/web/20150315013505/http://www.touchmathematics.org/' with '/'
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ###############################################################
+[ 2018-12-23 20:01:56 ] href  = https://web.archive.org/web/20150315013505/http://twitter.com/share - [( 1/10 )]
+[ 2018-12-23 20:01:56 ] file_url = /web/20150315013505/http://twitter.com/share ( is_internal_url =  )
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ###############################################################
+[ 2018-12-23 20:01:56 ] href  = https://web.archive.org/web/20150315013505/http://www.activatejavascript.org/ - [( 2/10 )]
+[ 2018-12-23 20:01:56 ] file_url = /web/20150315013505/http://www.activatejavascript.org/ ( is_internal_url =  )
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ###############################################################
+[ 2018-12-23 20:01:56 ] href  = https://web.archive.org/web/20150315013505/http://disqus.com/?ref_noscript - [( 3/10 )]
+[ 2018-12-23 20:01:56 ] file_url = /web/20150315013505/http://disqus.com/?ref_noscript ( is_internal_url =  )
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ###############################################################
+[ 2018-12-23 20:01:56 ] href  = https://web.archive.org/web/20150315013505/http://disqus.com/ - [( 4/10 )]
+[ 2018-12-23 20:01:56 ] file_url = /web/20150315013505/http://disqus.com/ ( is_internal_url =  )
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ###############################################################
+[ 2018-12-23 20:01:56 ] href  = /web/20150315013505/http://www.touchmathematics.org/about - [( 5/10 )]
+[ 2018-12-23 20:01:56 ] file_url = /web/20150315013505/http://www.touchmathematics.org/about ( is_internal_url = 1 )
+[ 2018-12-23 20:01:56 ] this file_name already exist in 'to_create_arr' => 'about.html'
+[ 2018-12-23 20:01:56 ] 2 - 'topics/trigonometry.html' : Replace '/web/20150315013505/http://www.touchmathematics.org/about' with '../../about/'
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ###############################################################
+[ 2018-12-23 20:01:56 ] href  = /web/20150315013505/http://www.touchmathematics.org/terms - [( 6/10 )]
+[ 2018-12-23 20:01:56 ] file_url = /web/20150315013505/http://www.touchmathematics.org/terms ( is_internal_url = 1 )
+[ 2018-12-23 20:01:56 ] this file_name already exist in 'to_create_arr' => 'terms.html'
+[ 2018-12-23 20:01:56 ] 2 - 'topics/trigonometry.html' : Replace '/web/20150315013505/http://www.touchmathematics.org/terms' with '../../terms/'
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ###############################################################
+[ 2018-12-23 20:01:56 ] href  = /web/20150315013505/http://www.touchmathematics.org/privacy - [( 7/10 )]
+[ 2018-12-23 20:01:56 ] Inject links in demo
+[ 2018-12-23 20:01:56 ] =>Replace '/web/20150315013505/http://www.touchmathematics.org/privacy' with 'http://internetdealerservices.com' at position of 'a' tags with href( 7/9 ) in page 'topics/trigonometry.html'number 2
+[ 2018-12-23 20:01:56 ] file_url = /web/20150315013505/http://www.touchmathematics.org/privacy ( is_internal_url = 1 )
+[ 2018-12-23 20:01:56 ] this file_name already exist in 'to_create_arr' => 'privacy.html'
+[ 2018-12-23 20:01:56 ] 2 - 'topics/trigonometry.html' : Replace '/web/20150315013505/http://www.touchmathematics.org/privacy' with '../../privacy/'
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ###############################################################
+[ 2018-12-23 20:01:56 ] href  = https://web.archive.org/web/20150315013505/http://creativecommons.org/licenses/by-nc-sa/3.0/ - [( 8/10 )]
+[ 2018-12-23 20:01:56 ] file_url = /web/20150315013505/http://creativecommons.org/licenses/by-nc-sa/3.0/ ( is_internal_url =  )
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] ###############################################################
+[ 2018-12-23 20:01:56 ] href  = https://web.archive.org/web/20150315013505if_/http://www.facebook.com/plugins/like.php?href&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21 - [( 9/10 )]
+[ 2018-12-23 20:01:56 ] file_url = /web/20150315013505if_/http://www.facebook.com/plugins/like.php?href&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21 ( is_internal_url =  )
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] Removed external links total ( 0 / 6 )
+[ 2018-12-23 20:01:56 ] local_file_path not created yet = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/topics/trigonometry.html
+[ 2018-12-23 20:01:56 ] code = 200
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] /*******		Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] There is no file with type 'css_from_import'
+[ 2018-12-23 20:01:56 ] /*******		End : Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		      From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] /*******		Extract 'fonts_from_html' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] There is no file with type 'fonts_from_html'
+[ 2018-12-23 20:01:56 ] /*******		End : Extract 'fonts_from_html' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		      From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] /*******		Extract 'css' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = /web/20150315013505cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/blueprint/screen.css
+[ 2018-12-23 20:01:56 ] topics/trigonometry.html : REPLACE '/web/20150315013505cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827' WITH '../../stylesheets/blueprint/screen.css'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = /web/20150315013505cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/blueprint/print.css
+[ 2018-12-23 20:01:56 ] topics/trigonometry.html : REPLACE '/web/20150315013505cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827' WITH '../../stylesheets/blueprint/print.css'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = /web/20150315013505cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/global.css
+[ 2018-12-23 20:01:56 ] topics/trigonometry.html : REPLACE '/web/20150315013505cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827' WITH '../../stylesheets/global.css'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] /*******		End : Extract 'css' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		      From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] /*******		Extract 'img' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = /web/20150315013505im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/logo_tiny.png
+[ 2018-12-23 20:01:56 ] topics/trigonometry.html : REPLACE '/web/20150315013505im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827' WITH '../../images/logo_tiny.png'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = /web/20150315013505im_/http://www.touchmathematics.org/images/logo.png?1383415827
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/logo.png
+[ 2018-12-23 20:01:56 ] topics/trigonometry.html : REPLACE '/web/20150315013505im_/http://www.touchmathematics.org/images/logo.png?1383415827' WITH '../../images/logo.png'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315013505im_/http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/l/by-nc-sa/3.0/88x31.png
+[ 2018-12-23 20:01:56 ] topics/trigonometry.html : REPLACE 'https://web.archive.org/web/20150315013505im_/http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png' WITH '../../l/by-nc-sa/3.0/88x31.png'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] /*******		End : Extract 'img' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		      From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] /*******		Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] There is no file with type 'background_images'
+[ 2018-12-23 20:01:56 ] /*******		End : Extract 'background_images' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		      From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] /*******		Extract 'background_images_in_html' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] There is no file with type 'background_images_in_html'
+[ 2018-12-23 20:01:56 ] /*******		End : Extract 'background_images_in_html' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		      From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] 
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] /*******		Extract 'script' files		**********/
+[ 2018-12-23 20:01:56 ] /*******		From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:56 ] /**************************************************************/
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = /web/20150315013505js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/javascripts/jquery.min.js
+[ 2018-12-23 20:01:56 ] topics/trigonometry.html : REPLACE '/web/20150315013505js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827' WITH '../../javascripts/jquery.min.js'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = /web/20150315013505js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827
+[ 2018-12-23 20:01:56 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/javascripts/touchmath.js
+[ 2018-12-23 20:01:56 ] topics/trigonometry.html : REPLACE '/web/20150315013505js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827' WITH '../../javascripts/touchmath.js'
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:56 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:56 ] update_html_file_path = 
+[ 2018-12-23 20:01:56 ] folder_path = 
+[ 2018-12-23 20:01:56 ] file_url_from_html_never_changed = /web/20150315013505js_/http://www.touchmathematics.org/javascripts/topics/trigonometry/main.js?1383415827
+[ 2018-12-23 20:01:56 ] file url = https://web.archive.org/web/20150315013505js_/http://www.touchmathematics.org/javascripts/topics/trigonometry/main.js?1383415827
+[ 2018-12-23 20:01:56 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:56 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:56 ] URL = https://web.archive.org/web/20150315013505js_/http://www.touchmathematics.org/javascripts/topics/trigonometry/main.js?1383415827
+[ 2018-12-23 20:01:56 ] main_archive_url = https://web.archive.org/web/20150315013505/http://www.touchmathematics.org/topics/trigonometry
+[ 2018-12-23 20:01:56 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:56 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:58 ] code = 200
+[ 2018-12-23 20:01:58 ] Final URL = https://web.archive.org/web/20150315190221js_/http://www.touchmathematics.org/javascripts/topics/trigonometry/main.js?1383415827 ( Final code = 200 )
+[ 2018-12-23 20:01:58 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:58 ] remove_web() function
+[ 2018-12-23 20:01:58 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/javascripts/topics/trigonometry/main.js --> File Created !!!
+[ 2018-12-23 20:01:58 ] set_files_count_xml() function
+[ 2018-12-23 20:01:58 ] increment +1
+[ 2018-12-23 20:01:58 ] key = 'js' |  value = '7'
+[ 2018-12-23 20:01:58 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:58 ] topics/trigonometry.html : REPLACE '/web/20150315013505js_/http://www.touchmathematics.org/javascripts/topics/trigonometry/main.js?1383415827' WITH '../../javascripts/topics/trigonometry/main.js'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315013505js_/http://platform.twitter.com/widgets.js
+[ 2018-12-23 20:01:58 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/widgets.js
+[ 2018-12-23 20:01:58 ] topics/trigonometry.html : REPLACE 'https://web.archive.org/web/20150315013505js_/http://platform.twitter.com/widgets.js' WITH '../../widgets.js'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315013505js_/http://www.reddit.com/static/button/button1.js
+[ 2018-12-23 20:01:58 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/static/button/button1.js
+[ 2018-12-23 20:01:58 ] topics/trigonometry.html : REPLACE 'https://web.archive.org/web/20150315013505js_/http://www.reddit.com/static/button/button1.js' WITH '../../static/button/button1.js'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315013505js_/http://www.stumbleupon.com/hostedbadge.php?s=1
+[ 2018-12-23 20:01:58 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/hostedbadge.php_s_1.js
+[ 2018-12-23 20:01:58 ] topics/trigonometry.html : REPLACE 'https://web.archive.org/web/20150315013505js_/http://www.stumbleupon.com/hostedbadge.php?s=1' WITH '../../hostedbadge.php_s_1.js'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] /*******		End : Extract 'script' files		**********/
+[ 2018-12-23 20:01:58 ] /*******		      From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] /**************************************************************/
+[ 2018-12-23 20:01:58 ] /*******		Extract 'swf' files		**********/
+[ 2018-12-23 20:01:58 ] /*******		From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:58 ] /**************************************************************/
+[ 2018-12-23 20:01:58 ] There is no file with type 'swf'
+[ 2018-12-23 20:01:58 ] /*******		End : Extract 'swf' files		**********/
+[ 2018-12-23 20:01:58 ] /*******		      From    'topics/trigonometry.html'      **********/
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] remove_web() function
+[ 2018-12-23 20:01:58 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/topics/trigonometry.html --> HTML File Created !!!
+[ 2018-12-23 20:01:58 ] ----------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] update  to_create_arr[2][is_done] = 1
+[ 2018-12-23 20:01:58 ] set_files_count_xml() function
+[ 2018-12-23 20:01:58 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:01:58 ] key = 'html_done' |  value = '3'
+[ 2018-12-23 20:01:58 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:58 ] ( 3 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:58 ] ------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] set_files_count_xml() function
+[ 2018-12-23 20:01:58 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:01:58 ] key = 'html_done' |  value = '3'
+[ 2018-12-23 20:01:58 ] ----------------------------------------------------------
+[ 2018-12-23 20:01:58 ] ( 3 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:01:58 ] about.html -> File name found in to_create_arr
+[ 2018-12-23 20:01:58 ] #####################################################################################################
+[ 2018-12-23 20:01:58 ] ###############https://web.archive.org/web/20150315013416/http://www.touchmathematics.org/about ( Scraping  of 4 / 6 )  - 0 error pages fixed###############
+[ 2018-12-23 20:01:58 ] ###############Local URL = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/about.html (code = 200) ###############
+[ 2018-12-23 20:01:58 ] ###############Try number = 1###############
+[ 2018-12-23 20:01:58 ] #####################################################################################################
+[ 2018-12-23 20:01:58 ]  Main level =1
+[ 2018-12-23 20:01:58 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:58 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:58 ] URL = https://web.archive.org/web/20150315013416/http://www.touchmathematics.org/about
+[ 2018-12-23 20:01:58 ] main_archive_url = https://web.archive.org/web/20150315013416/http://www.touchmathematics.org/about
+[ 2018-12-23 20:01:58 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-23 20:01:58 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:01:58 ] code = 200
+[ 2018-12-23 20:01:58 ] Final URL = https://web.archive.org/web/20150315013416/http://www.touchmathematics.org/about ( Final code = 200 )
+[ 2018-12-23 20:01:58 ] >>>>>>>>> END >
+[ 2018-12-23 20:01:58 ] removeArchiveHeader() from the HTML file
+[ 2018-12-23 20:01:58 ] Original encoding = UTF-8
+[ 2018-12-23 20:01:58 ] Original encoding is in probably UTF-8= true
+[ 2018-12-23 20:01:58 ] ----------------------------------------
+[ 2018-12-23 20:01:58 ] Check Encoding And then fix it
+[ 2018-12-23 20:01:58 ] Final encoding = UTF-8
+[ 2018-12-23 20:01:58 ] Language = N/A
+[ 2018-12-23 20:01:58 ] Is pertty URL : 1
+[ 2018-12-23 20:01:58 ] ###############################################################
+[ 2018-12-23 20:01:58 ] href  = /web/20150315013416/http://www.touchmathematics.org/ - [( 0/9 )]
+[ 2018-12-23 20:01:58 ] file_url = /web/20150315013416/http://www.touchmathematics.org/ ( is_internal_url = 1 )
+[ 2018-12-23 20:01:58 ] 2 - 'about.html' : Replace '/web/20150315013416/http://www.touchmathematics.org/' with '/'
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] ###############################################################
+[ 2018-12-23 20:01:58 ] href  = https://web.archive.org/web/20150315013416/http://twitter.com/share - [( 1/9 )]
+[ 2018-12-23 20:01:58 ] file_url = /web/20150315013416/http://twitter.com/share ( is_internal_url =  )
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] ###############################################################
+[ 2018-12-23 20:01:58 ] href  = https://web.archive.org/web/20150315013416/http://www.activatejavascript.org/ - [( 2/9 )]
+[ 2018-12-23 20:01:58 ] file_url = /web/20150315013416/http://www.activatejavascript.org/ ( is_internal_url =  )
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] ###############################################################
+[ 2018-12-23 20:01:58 ] href  = https://web.archive.org/web/20150315013416/http://commons.wikimedia.org/wiki/User:Wilfredor - [( 3/9 )]
+[ 2018-12-23 20:01:58 ] file_url = /web/20150315013416/http://commons.wikimedia.org/wiki/User:Wilfredor ( is_internal_url =  )
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] ###############################################################
+[ 2018-12-23 20:01:58 ] href  = /web/20150315013416/http://www.touchmathematics.org/about - [( 4/9 )]
+[ 2018-12-23 20:01:58 ] file_url = /web/20150315013416/http://www.touchmathematics.org/about ( is_internal_url = 1 )
+[ 2018-12-23 20:01:58 ] this file_name already exist in 'to_create_arr' => 'about.html'
+[ 2018-12-23 20:01:58 ] 2 - 'about.html' : Replace '/web/20150315013416/http://www.touchmathematics.org/about' with '../about/'
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] ###############################################################
+[ 2018-12-23 20:01:58 ] href  = /web/20150315013416/http://www.touchmathematics.org/terms - [( 5/9 )]
+[ 2018-12-23 20:01:58 ] file_url = /web/20150315013416/http://www.touchmathematics.org/terms ( is_internal_url = 1 )
+[ 2018-12-23 20:01:58 ] this file_name already exist in 'to_create_arr' => 'terms.html'
+[ 2018-12-23 20:01:58 ] 2 - 'about.html' : Replace '/web/20150315013416/http://www.touchmathematics.org/terms' with '../terms/'
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] ###############################################################
+[ 2018-12-23 20:01:58 ] href  = /web/20150315013416/http://www.touchmathematics.org/privacy - [( 6/9 )]
+[ 2018-12-23 20:01:58 ] file_url = /web/20150315013416/http://www.touchmathematics.org/privacy ( is_internal_url = 1 )
+[ 2018-12-23 20:01:58 ] this file_name already exist in 'to_create_arr' => 'privacy.html'
+[ 2018-12-23 20:01:58 ] 2 - 'about.html' : Replace '/web/20150315013416/http://www.touchmathematics.org/privacy' with '../privacy/'
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] ###############################################################
+[ 2018-12-23 20:01:58 ] href  = https://web.archive.org/web/20150315013416/http://creativecommons.org/licenses/by-nc-sa/3.0/ - [( 7/9 )]
+[ 2018-12-23 20:01:58 ] file_url = /web/20150315013416/http://creativecommons.org/licenses/by-nc-sa/3.0/ ( is_internal_url =  )
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] ###############################################################
+[ 2018-12-23 20:01:58 ] href  = https://web.archive.org/web/20150315013416if_/http://www.facebook.com/plugins/like.php?href&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21 - [( 8/9 )]
+[ 2018-12-23 20:01:58 ] file_url = /web/20150315013416if_/http://www.facebook.com/plugins/like.php?href&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21 ( is_internal_url =  )
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] Removed external links total ( 0 / 5 )
+[ 2018-12-23 20:01:58 ] local_file_path not created yet = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/about.html
+[ 2018-12-23 20:01:58 ] code = 200
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] /**************************************************************/
+[ 2018-12-23 20:01:58 ] /*******		Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:58 ] /*******		From    'about.html'      **********/
+[ 2018-12-23 20:01:58 ] /**************************************************************/
+[ 2018-12-23 20:01:58 ] There is no file with type 'css_from_import'
+[ 2018-12-23 20:01:58 ] /*******		End : Extract 'css_from_import' files		**********/
+[ 2018-12-23 20:01:58 ] /*******		      From    'about.html'      **********/
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] /**************************************************************/
+[ 2018-12-23 20:01:58 ] /*******		Extract 'fonts_from_html' files		**********/
+[ 2018-12-23 20:01:58 ] /*******		From    'about.html'      **********/
+[ 2018-12-23 20:01:58 ] /**************************************************************/
+[ 2018-12-23 20:01:58 ] There is no file with type 'fonts_from_html'
+[ 2018-12-23 20:01:58 ] /*******		End : Extract 'fonts_from_html' files		**********/
+[ 2018-12-23 20:01:58 ] /*******		      From    'about.html'      **********/
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] /**************************************************************/
+[ 2018-12-23 20:01:58 ] /*******		Extract 'css' files		**********/
+[ 2018-12-23 20:01:58 ] /*******		From    'about.html'      **********/
+[ 2018-12-23 20:01:58 ] /**************************************************************/
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = /web/20150315013416cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827
+[ 2018-12-23 20:01:58 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/blueprint/screen.css
+[ 2018-12-23 20:01:58 ] about.html : REPLACE '/web/20150315013416cs_/http://www.touchmathematics.org/stylesheets/blueprint/screen.css?1383415827' WITH '../stylesheets/blueprint/screen.css'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = /web/20150315013416cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827
+[ 2018-12-23 20:01:58 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/blueprint/print.css
+[ 2018-12-23 20:01:58 ] about.html : REPLACE '/web/20150315013416cs_/http://www.touchmathematics.org/stylesheets/blueprint/print.css?1383415827' WITH '../stylesheets/blueprint/print.css'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = /web/20150315013416cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827
+[ 2018-12-23 20:01:58 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/stylesheets/global.css
+[ 2018-12-23 20:01:58 ] about.html : REPLACE '/web/20150315013416cs_/http://www.touchmathematics.org/stylesheets/global.css?1383415827' WITH '../stylesheets/global.css'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] /*******		End : Extract 'css' files		**********/
+[ 2018-12-23 20:01:58 ] /*******		      From    'about.html'      **********/
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] 
+[ 2018-12-23 20:01:58 ] /**************************************************************/
+[ 2018-12-23 20:01:58 ] /*******		Extract 'img' files		**********/
+[ 2018-12-23 20:01:58 ] /*******		From    'about.html'      **********/
+[ 2018-12-23 20:01:58 ] /**************************************************************/
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = /web/20150315013416im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827
+[ 2018-12-23 20:01:58 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/logo_tiny.png
+[ 2018-12-23 20:01:58 ] about.html : REPLACE '/web/20150315013416im_/http://www.touchmathematics.org/images/logo_tiny.png?1383415827' WITH '../images/logo_tiny.png'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = /web/20150315013416im_/http://www.touchmathematics.org/images/logo_big.jpg?1383415827
+[ 2018-12-23 20:01:58 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/logo_big.jpg
+[ 2018-12-23 20:01:58 ] about.html : REPLACE '/web/20150315013416im_/http://www.touchmathematics.org/images/logo_big.jpg?1383415827' WITH '../images/logo_big.jpg'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = /web/20150315013416im_/http://www.touchmathematics.org/images/logo.png?1383415827
+[ 2018-12-23 20:01:58 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/images/logo.png
+[ 2018-12-23 20:01:58 ] about.html : REPLACE '/web/20150315013416im_/http://www.touchmathematics.org/images/logo.png?1383415827' WITH '../images/logo.png'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315013416im_/http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
+[ 2018-12-23 20:01:58 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/l/by-nc-sa/3.0/88x31.png
+[ 2018-12-23 20:01:58 ] about.html : REPLACE 'https://web.archive.org/web/20150315013416im_/http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png' WITH '../l/by-nc-sa/3.0/88x31.png'
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:01:58 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:01:58 ] update_html_file_path = 
+[ 2018-12-23 20:01:58 ] folder_path = 
+[ 2018-12-23 20:01:58 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315013416/http://en.wikipedia.org/wiki/File:Fingerprint_picture.svg
+[ 2018-12-23 20:01:58 ] file url = https://web.archive.org/web/20150315013416/http://en.wikipedia.org/wiki/File:Fingerprint_picture.svg
+[ 2018-12-23 20:01:58 ] >>>>>>>>> START >
+[ 2018-12-23 20:01:58 ] get_curl_archive() Launching ...
+[ 2018-12-23 20:01:58 ] URL = https://web.archive.org/web/20150315013416/http://en.wikipedia.org/wiki/File:Fingerprint_picture.svg
+[ 2018-12-23 20:01:58 ] main_archive_url = https://web.archive.org/web/20150315013416/http://www.touchmathematics.org/about
+[ 2018-12-23 20:01:58 ] no proxy used ( Test nbr 1/6 )
+[ 2018-12-23 20:01:58 ] useragent = waybackmachinedownloader
+[ 2018-12-23 20:02:00 ] code = 200
+[ 2018-12-23 20:02:00 ] Final URL = https://web.archive.org/web/20170118075740/https://en.wikipedia.org/wiki/File:Fingerprint_picture.svg ( Final code = 200 )
+[ 2018-12-23 20:02:00 ] >>>>>>>>> END >
+[ 2018-12-23 20:02:00 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/wiki/File_Fingerprint_picture.svg --> File Created !!!
+[ 2018-12-23 20:02:00 ] set_files_count_xml() function
+[ 2018-12-23 20:02:00 ] increment +1
+[ 2018-12-23 20:02:00 ] key = 'img' |  value = '8'
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------
+[ 2018-12-23 20:02:00 ] about.html : REPLACE 'https://web.archive.org/web/20150315013416/http://en.wikipedia.org/wiki/File:Fingerprint_picture.svg' WITH '../wiki/File_Fingerprint_picture.svg'
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] /*******		End : Extract 'img' files		**********/
+[ 2018-12-23 20:02:00 ] /*******		      From    'about.html'      **********/
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] /**************************************************************/
+[ 2018-12-23 20:02:00 ] /*******		Extract 'background_images' files		**********/
+[ 2018-12-23 20:02:00 ] /*******		From    'about.html'      **********/
+[ 2018-12-23 20:02:00 ] /**************************************************************/
+[ 2018-12-23 20:02:00 ] There is no file with type 'background_images'
+[ 2018-12-23 20:02:00 ] /*******		End : Extract 'background_images' files		**********/
+[ 2018-12-23 20:02:00 ] /*******		      From    'about.html'      **********/
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] /**************************************************************/
+[ 2018-12-23 20:02:00 ] /*******		Extract 'background_images_in_html' files		**********/
+[ 2018-12-23 20:02:00 ] /*******		From    'about.html'      **********/
+[ 2018-12-23 20:02:00 ] /**************************************************************/
+[ 2018-12-23 20:02:00 ] There is no file with type 'background_images_in_html'
+[ 2018-12-23 20:02:00 ] /*******		End : Extract 'background_images_in_html' files		**********/
+[ 2018-12-23 20:02:00 ] /*******		      From    'about.html'      **********/
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] /**************************************************************/
+[ 2018-12-23 20:02:00 ] /*******		Extract 'script' files		**********/
+[ 2018-12-23 20:02:00 ] /*******		From    'about.html'      **********/
+[ 2018-12-23 20:02:00 ] /**************************************************************/
+[ 2018-12-23 20:02:00 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] file_url_from_html_never_changed = /web/20150315013416js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827
+[ 2018-12-23 20:02:00 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/javascripts/jquery.min.js
+[ 2018-12-23 20:02:00 ] about.html : REPLACE '/web/20150315013416js_/http://www.touchmathematics.org/javascripts/jquery.min.js?1383415827' WITH '../javascripts/jquery.min.js'
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] file_url_from_html_never_changed = /web/20150315013416js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827
+[ 2018-12-23 20:02:00 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/javascripts/touchmath.js
+[ 2018-12-23 20:02:00 ] about.html : REPLACE '/web/20150315013416js_/http://www.touchmathematics.org/javascripts/touchmath.js?1383415827' WITH '../javascripts/touchmath.js'
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315013416js_/http://platform.twitter.com/widgets.js
+[ 2018-12-23 20:02:00 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/widgets.js
+[ 2018-12-23 20:02:00 ] about.html : REPLACE 'https://web.archive.org/web/20150315013416js_/http://platform.twitter.com/widgets.js' WITH '../widgets.js'
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315013416js_/http://www.reddit.com/static/button/button1.js
+[ 2018-12-23 20:02:00 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/static/button/button1.js
+[ 2018-12-23 20:02:00 ] about.html : REPLACE 'https://web.archive.org/web/20150315013416js_/http://www.reddit.com/static/button/button1.js' WITH '../static/button/button1.js'
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] replace_and_create_script_link() = function Start
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] file_url_from_html_never_changed = https://web.archive.org/web/20150315013416js_/http://www.stumbleupon.com/hostedbadge.php?s=1
+[ 2018-12-23 20:02:00 ]  --> file already exist 2 -> files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/hostedbadge.php_s_1.js
+[ 2018-12-23 20:02:00 ] about.html : REPLACE 'https://web.archive.org/web/20150315013416js_/http://www.stumbleupon.com/hostedbadge.php?s=1' WITH '../hostedbadge.php_s_1.js'
+[ 2018-12-23 20:02:00 ] update_html_file_path = 
+[ 2018-12-23 20:02:00 ] folder_path = 
+[ 2018-12-23 20:02:00 ] -------------------------------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] /*******		End : Extract 'script' files		**********/
+[ 2018-12-23 20:02:00 ] /*******		      From    'about.html'      **********/
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] /**************************************************************/
+[ 2018-12-23 20:02:00 ] /*******		Extract 'swf' files		**********/
+[ 2018-12-23 20:02:00 ] /*******		From    'about.html'      **********/
+[ 2018-12-23 20:02:00 ] /**************************************************************/
+[ 2018-12-23 20:02:00 ] There is no file with type 'swf'
+[ 2018-12-23 20:02:00 ] /*******		End : Extract 'swf' files		**********/
+[ 2018-12-23 20:02:00 ] /*******		      From    'about.html'      **********/
+[ 2018-12-23 20:02:00 ] 
+[ 2018-12-23 20:02:00 ] remove_web() function
+[ 2018-12-23 20:02:00 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/about.html --> HTML File Created !!!
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] update  to_create_arr[3][is_done] = 1
+[ 2018-12-23 20:02:00 ] set_files_count_xml() function
+[ 2018-12-23 20:02:00 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:02:00 ] key = 'html_done' |  value = '4'
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------
+[ 2018-12-23 20:02:00 ] ( 4 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:02:00 ] ------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] set_files_count_xml() function
+[ 2018-12-23 20:02:00 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:02:00 ] key = 'html_done' |  value = '4'
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------
+[ 2018-12-23 20:02:00 ] ( 4 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:02:00 ] terms.html -> File name found in to_create_arr
+[ 2018-12-23 20:02:00 ] #####################################################################################################
+[ 2018-12-23 20:02:00 ] ###############https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/terms ( Scraping  of 5 / 6 )  - 0 error pages fixed###############
+[ 2018-12-23 20:02:00 ] ###############Local URL = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/terms.html (code = -1) ###############
+[ 2018-12-23 20:02:00 ] ###############Try number = 1###############
+[ 2018-12-23 20:02:00 ] #####################################################################################################
+[ 2018-12-23 20:02:00 ]  Main level =1
+[ 2018-12-23 20:02:00 ] local_file_path not created yet = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/terms.html
+[ 2018-12-23 20:02:00 ] code = -1
+[ 2018-12-23 20:02:00 ] remove_web() function
+[ 2018-12-23 20:02:00 ] Limit of 3 pages exceeded in demo version !!!
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] update  to_create_arr[4][is_done] = 1
+[ 2018-12-23 20:02:00 ] set_files_count_xml() function
+[ 2018-12-23 20:02:00 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:02:00 ] key = 'html_done' |  value = '5'
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------
+[ 2018-12-23 20:02:00 ] ( 5 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:02:00 ] ------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] set_files_count_xml() function
+[ 2018-12-23 20:02:00 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:02:00 ] key = 'html_done' |  value = '5'
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------
+[ 2018-12-23 20:02:00 ] ( 5 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:02:00 ] privacy.html -> File name found in to_create_arr
+[ 2018-12-23 20:02:00 ] #####################################################################################################
+[ 2018-12-23 20:02:00 ] ###############https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/privacy ( Scraping  of 6 / 6 )  - 0 error pages fixed###############
+[ 2018-12-23 20:02:00 ] ###############Local URL = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/privacy.html (code = -1) ###############
+[ 2018-12-23 20:02:00 ] ###############Try number = 1###############
+[ 2018-12-23 20:02:00 ] #####################################################################################################
+[ 2018-12-23 20:02:00 ]  Main level =1
+[ 2018-12-23 20:02:00 ] local_file_path not created yet = files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva/privacy.html
+[ 2018-12-23 20:02:00 ] code = -1
+[ 2018-12-23 20:02:00 ] remove_web() function
+[ 2018-12-23 20:02:00 ] Limit of 3 pages exceeded in demo version !!!
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------------------
+[ 2018-12-23 20:02:00 ] update  to_create_arr[5][is_done] = 1
+[ 2018-12-23 20:02:00 ] set_files_count_xml() function
+[ 2018-12-23 20:02:00 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:02:00 ] key = 'html_done' |  value = '6'
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------
+[ 2018-12-23 20:02:00 ] ( 6 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:02:00 ] set_files_count_xml() function
+[ 2018-12-23 20:02:00 ] key = 'search_url_added' |  value = 'true'
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------
+[ 2018-12-23 20:02:00 ] create_zip_file_and_send_email() function
+[ 2018-12-23 20:02:00 ] set_files_count_xml() function
+[ 2018-12-23 20:02:00 ] key = 'html_total' |  value = '6'
+[ 2018-12-23 20:02:00 ] key = 'html_done' |  value = '6'
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------
+[ 2018-12-23 20:02:00 ] ( 6 / 6 )  Done - 0 error pages fixed
+[ 2018-12-23 20:02:00 ] touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pva_backup.zip ZIP Created !!!
+[ 2018-12-23 20:02:00 ] from email =  wayback2hosting@gmail.com
+[ 2018-12-23 20:02:00 ] to email =  Array
+[ 2018-12-23 20:02:00 ] subject =  Html files for : http://www.touchmathematics.org/ (demo) 
+[ 2018-12-23 20:02:00 ] body =  Dear customer,The result of the free demo is now available. You made a request earlier to generate a recovery of https://web.archive.org/web/20150315011558/http://www.touchmathematics.org/.You can download the HTML files by clicking the download button, or visiting this URL:https://www.waybackmachinedownloader.com/en/file_editor-wayback-machine-downloader-recover/?url=files/demo/touchmathematics.org_DeyVpl_gmail.com_2b6u0ns7pvaThe free demo only contains four pages, but you can upload it to your server and it will work correctly.Please note that these files are meant to be installed on an (Apache) web server. If you open them on your personal computer, then certain links will not work. If you follow the installation guide, it will all work!	
+		Installation can be done by following this walkthrough guide: https://www.waybackmachinedownloader.com/en/how-to-download-site-from-wayback-machine/Download filesEdit filesBuy NowKind Regards,Wayback Machine Downloader
+[ 2018-12-23 20:02:00 ] Error occured when sending email !!!
+[ 2018-12-23 20:02:00 ] Final demo email sent!
+[ 2018-12-23 20:02:00 ] Loading Time = 00:00:38
+[ 2018-12-23 20:02:00 ] set_files_count_xml() function
+[ 2018-12-23 20:02:00 ] key = 'total_urls_from_api' |  value = 'counting...'
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------
+[ 2018-12-23 20:02:00 ] count_url_search_api() function
+[ 2018-12-23 20:02:00 ] set_files_count_xml() function
+[ 2018-12-23 20:02:00 ] key = 'front_page_code_date' |  value = '20150315011558'
+[ 2018-12-23 20:02:00 ] ----------------------------------------------------------
+[ 2018-12-23 20:02:00 ] front_page_code_date = 20150315011558
+[ 2018-12-23 20:02:00 ] Looking for URLs from Archive API https://web.archive.org/cdx/search/cdx
+[ 2018-12-23 20:02:00 ] \\\\
+[ 2018-12-23 20:02:00 ] get_curl() function launching ...
+[ 2018-12-23 20:02:00 ] URL = https://web.archive.org/cdx/search/cdx?url=touchmathematics.org&matchType=domain&limit=10000&output=json&filter=statuscode:200&filter=mimetype:text/html&showResumeKey=true ( get_curl Test nbr 1/3 )
+[ 2018-12-23 20:02:00 ] no proxy used ( Test nbr 1/3 )
+[ 2018-12-23 20:02:03 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A
+[ 2018-12-23 20:02:03 ] Final Code = 200
+[ 2018-12-23 20:02:03 ] Final HTML found = Yes
+[ 2018-12-23 20:02:03 ] ////
+[ 2018-12-23 20:02:03 ] Cycle number : 1
+[ 2018-12-23 20:02:03 ] Search URL : https://web.archive.org/cdx/search/cdx?url=touchmathematics.org&matchType=domain&limit=10000&output=json&filter=statuscode:200&filter=mimetype:text/html&showResumeKey=true
+[ 2018-12-23 20:02:03 ] Temp page found : 22
+[ 2018-12-23 20:02:03 ] max_cycles : False (limit reached = False)
+[ 2018-12-23 20:02:03 ] max_pages : 1000 (limit reached = False)
+[ 2018-12-23 20:02:03 ] URL Found from search : 22
+[ 2018-12-23 20:02:03 ] set_files_count_xml() function
+[ 2018-12-23 20:02:03 ] key = 'total_urls_from_api' |  value = '22 pages'
+[ 2018-12-23 20:02:03 ] ----------------------------------------------------------
